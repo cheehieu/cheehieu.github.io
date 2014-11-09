@@ -1,11 +1,4 @@
 /*******************************************************************************
-Slate Theme for GitHub Pages
-by Jason Costello, @jsncostello
-*******************************************************************************/
-
-@import url(pygment_trac.css);
-
-/*******************************************************************************
 MeyerWeb Reset
 *******************************************************************************/
 
@@ -51,7 +44,7 @@ Theme Styles
 body {
   box-sizing: border-box;
   color:#373737;
-  background: #212121;
+  background: #FFF;
   font-size: 16px;
   font-family: 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -267,6 +260,19 @@ Full-Width Styles
   max-width: 640px;
   padding: 20px 10px;
   margin: 0 auto;
+}
+
+#div_header {
+  text-align: center;
+}
+
+#header {
+  font-size: 60px;
+  font-weight: 700;
+  font-family: fantasy;
+}
+
+#div_banners {
 }
 
 #forkme_banner {
