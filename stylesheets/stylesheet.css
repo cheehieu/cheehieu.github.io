@@ -303,6 +303,38 @@ Full-Width Styles
   border-bottom-right-radius: 2px;
 }
 
+.div_nav {
+	text-align: center;
+	
+}
+
+.div_nav a {
+    color: #5a5a5a;
+    font-size: 13px;
+    font-weight: bold;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-transform: uppercase;
+}
+
+.div_nav li {
+	list-style-type: none; 
+	display: inline; 
+	font-weight: bold; 
+	padding-left: 10px; 
+	padding-right: 10px;
+}
+
+#div_slideshow {
+	text-align: center;
+}
+
+#div_content {
+	text-align: center;
+}
+
 #header_wrap {
   background: #212121;
   background: -moz-linear-gradient(top, #373737, #212121);
