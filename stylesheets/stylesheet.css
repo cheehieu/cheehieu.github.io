@@ -303,12 +303,21 @@ Full-Width Styles
   border-bottom-right-radius: 2px;
 }
 
-#div_nav {
+.nav-tabs {
 	text-align: center;
-	margin-bottom: 50px;
+	margin: 0 auto;
+	width: 425px;
 }
 
-#div_nav a {
+.nav-tabs>li {
+	list-style-type: none; 
+	display: inline; 
+	font-weight: bold; 
+	padding-left: 10px; 
+	padding-right: 10px;
+}
+
+.nav-tabs>li>a {
     color: #5a5a5a;
     font-size: 13px;
     font-weight: bold;
@@ -319,19 +328,16 @@ Full-Width Styles
     text-transform: uppercase;
 }
 
-#div_nav li {
-	list-style-type: none; 
-	display: inline; 
-	font-weight: bold; 
-	padding-left: 10px; 
-	padding-right: 10px;
-}
-
 #div_slideshow {
 	text-align: center;
 }
 
 #div_content {
+	text-align: center;
+}
+
+.jumbotron {
+	margin-top: 10px;
 	text-align: center;
 }
 
