@@ -4,7 +4,7 @@
 <title>Nifty Hedgehog</title>
 <link rel="icon" type="image/x-icon" href="favicon.ico">
 <!--Google fonts-->
-<link rel="stylesheet" href="stylesheets/bootstrap.css">
+<!--link rel="stylesheet" href="stylesheets/bootstrap.css"-->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
@@ -21,66 +21,85 @@
 </head>
 
 <body>
-<div id="div_banners">
+  <div class="header">
+    <h1>Nifty Hedgehog!</h1>
+	<p>Where intrepidness meets stupidity.</p>
+  </div>
+
+  <div class="nav">
+	  <div class="container">
+		<ul class="nav nav-tabs">
+		  <li class="active"><a href="#">Home</a></li>
+		  <li><a href="#">About</a></li>
+		  <li class="dropdown">
+			<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+			Projects <span class="caret"></span></a>
+		    <ul class="dropdown-menu" role="menu">
+			  <li><a href="http://niftyhedgehog.com/catlady">catlady</a></li>
+			  <li class="divider"></li>
+			  <li><a href="http://niftyhedgehog.com/pm-board-zoo">pm-board-zoo</a></li>
+			  <li><a href="http://niftyhedgehog.com/rc-car-collision">rc-car-collision</a></li>
+			  <li><a href="http://niftyhedgehog.com/rtdc">rtdc</a></li>
+		    </ul>
+		  </li>
+		  <li><a href="#">Blog</a></li>
+		  <li><a href="#">Misc.</a></li>
+		</ul>
+      </div>
+  </div>
+  
+  <div class="banners">
 	<a id="forkme_banner" href="https://github.com/cheehieu">View on GitHub</a>
 	<a id="linkedin_banner" href="http://www.linkedin.com/in/hieuminh">
-          <img src="https://static.licdn.com/scds/common/u/img/webpromo/btn_viewmy_120x33.png" width="120" height="33" border="0" alt="View Hieu Nguyen's profile on LinkedIn">
+      <img src="https://static.licdn.com/scds/common/u/img/webpromo/btn_viewmy_120x33.png" width="120" height="33" border="0" alt="View Hieu Nguyen's profile on LinkedIn">
     </a>
-</div>
+  </div>
+  
+  <div class="jumbotron">
+    <div class="container">
+	
+    </div>
+  </div>
+  
+  <div class="content">
+    <div class="container">
+	  <div class="row">
+	    <div class="col-md-4">
+		  <h3>One</h3>
+		  <p>Fish.</p>
+		  <p><a href="#">Link more</a></p>
+	    </div>
+	    <div class="col-md-4">
+  		<h3>Two</h3>
+		  <p>Fish.</p>
+		  <p><a href="#">Learn less</a></p>
+	    </div>
+	    <div class="col-md-4">
+  		<h3>Three</h3>
+		  <p>Fish.</p>
+		  <p><a href="#">Learn nothing</a></p>
+	    </div>
+	  </div>
+    </div>
+  </div>
 
-<div id="container">
-	<div id="div_header">
-		<h1 id="header">Nifty Hedgehog!</h1>
-	</div>
-
-	<div id="div_na">
-		<ul class="nav nav-tabs">
-			<li class="active"><a href="#">Home</a></li>
-			<li><a href="#">About</a></li>
-			<li class="dropdown">
-			  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-			    Projects <span class="caret"></span></a>
-			  <ul class="dropdown-menu" role="menu">
-				<li><a href="http://niftyhedgehog.com/catlady">catlady</a></li>
-				<li class="divider"></li>
-				<li><a href="http://niftyhedgehog.com/pm-board-zoo">pm-board-zoo</a></li>
-				<li><a href="http://niftyhedgehog.com/rc-car-collision">rc-car-collision</a></li>
-				<li><a href="http://niftyhedgehog.com/rtdc">rtdc</a></li>
-			  </ul>
-			</li>
-			<li><a href="#">Blog</a></li>
-			<li><a href="#">Misc.</a></li>
-		</ul>
-	</div>
-
-	<div class="jumbotron">
-		<div class="container">
-			<h5>Featuring:</h5>
-		</div>
-	</div>
-
-	<div id="div_content">
-		<img src="images/hedgehog_drawing.png"><br>
-	</div>
-
-	<div id="div_footer">
-		<ul>
-			<li>|</li>
-			<li><a href="#">Sky</a></li>
-			<li><a href="#">Land</a></li>
-			<li><a href="#">Ocean</a></li>
-			<li><a href="#">City</a></li>
-			<li>|</li>
-			<li><a href="#">Food</a></li>
-			<li><a href="#">Film</a></li>
-			<li><a href="#">Music</a></li>
-			<li><a href="#">Travel</a></li>
-			<li><a href="#">Art</a></li>
-			<li>|</li>
-		</ul>
-	</div>
-</div>
-
+  <div class="footer">
+    <p>Find me somewhere on planet Earth!</p>
+	<ul>
+	  <li>|</li>
+	  <li><a href="#">Sky</a></li>
+	  <li><a href="#">Land</a></li>
+	  <li><a href="#">Ocean</a></li>
+	  <li><a href="#">City</a></li>
+	  <li>|</li>
+	  <li><a href="#">Food</a></li>
+	  <li><a href="#">Film</a></li>
+	  <li><a href="#">Music</a></li>
+	  <li><a href="#">Travel</a></li>
+	  <li><a href="#">Art</a></li>
+	  <li>|</li>
+	</ul>
+  </div>
 </body>
 
 </html>
