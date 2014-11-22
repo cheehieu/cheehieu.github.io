@@ -250,29 +250,23 @@ form {
 /*******************************************************************************
 Full-Width Styles
 *******************************************************************************/
-
-.outer {
-  width: 100%;
-}
-
-.inner {
-  position: relative;
-  max-width: 640px;
-  padding: 20px 10px;
-  margin: 0 auto;
-}
-
-#div_header {
+.header {
   text-align: center;
 }
 
-#header {
+.header h1{
   font-size: 60px;
   font-weight: 700;
   font-family: fantasy;
 }
 
-#div_banners {
+.header p{
+  font-size: 14px;
+  font-style: italic;
+  font-family: Georgia;
+}
+
+.banners {
 }
 
 #forkme_banner {
@@ -328,122 +322,45 @@ Full-Width Styles
     text-transform: uppercase;
 }
 
-#div_slideshow {
-	text-align: center;
-}
-
-#div_content {
-	text-align: center;
-}
-
 .jumbotron {
-	margin-top: 10px;
+	background-image: url("../images/hedgehog_drawing.png");
+	height: 300px;
+	background-position: center; 
+	background-repeat: no-repeat;
+	background-size: contain;
+	margin-top: 50px;
 	text-align: center;
 }
 
-#div_footer {
+.content {
+	text-align: center;
+}
+
+.footer {
 	text-align: center;
 	position: absolute;
 	bottom: 0;
 	width: 100%;
 }
 
-#div_footer a {
+.footer p {
+	font-size: 10px;
+	font-style: italic;
+	font-family: Georgia;
+}
+
+.footer a {
     font-size: 10px;
     font-weight: bold;
     text-transform: uppercase;
 }
 
-#div_footer li {
+.footer li {
 	list-style-type: none; 
 	display: inline; 
 	padding-left: 10px; 
 	padding-right: 10px;
 }
-
-#header_wrap {
-  background: #212121;
-  background: -moz-linear-gradient(top, #373737, #212121);
-  background: -webkit-linear-gradient(top, #373737, #212121);
-  background: -ms-linear-gradient(top, #373737, #212121);
-  background: -o-linear-gradient(top, #373737, #212121);
-  background: linear-gradient(top, #373737, #212121);
-}
-
-#header_wrap .inner {
-  padding: 50px 10px 30px 10px;
-}
-
-#project_title {
-  margin: 0;
-  color: #fff;
-  font-size: 42px;
-  font-weight: 700;
-  text-shadow: #111 0px 0px 10px;
-}
-
-#project_tagline {
-  color: #fff;
-  font-size: 24px;
-  font-weight: 300;
-  background: none;
-  text-shadow: #111 0px 0px 10px;
-}
-
-#downloads {
-  position: absolute;
-  width: 210px;
-  z-index: 10;
-  bottom: -40px;
-  right: 0;
-  height: 70px;
-  background: url('../images/icon_download.png') no-repeat 0% 90%;
-}
-
-.zip_download_link {
-  display: block;
-  float: right;
-  width: 90px;
-  height:70px;
-  text-indent: -5000px;
-  overflow: hidden;
-  background: url(../images/sprite_download.png) no-repeat bottom left;
-}
-
-.tar_download_link {
-  display: block;
-  float: right;
-  width: 90px;
-  height:70px;
-  text-indent: -5000px;
-  overflow: hidden;
-  background: url(../images/sprite_download.png) no-repeat bottom right;
-  margin-left: 10px;
-}
-
-.zip_download_link:hover {
-  background: url(../images/sprite_download.png) no-repeat top left;
-}
-
-.tar_download_link:hover {
-  background: url(../images/sprite_download.png) no-repeat top right;
-}
-
-#main_content_wrap {
-  background: #f2f2f2;
-  border-top: 1px solid #111;
-  border-bottom: 1px solid #111;
-}
-
-#main_content {
-  padding-top: 40px;
-}
-
-#footer_wrap {
-  background: #212121;
-}
-
-
 
 /*******************************************************************************
 Small Device Styles
@@ -468,7 +385,7 @@ Small Device Styles
   }
 
   h1 {
-    font-size: 28px;
+    font-size: 72px;
   }
 
   h2 {
