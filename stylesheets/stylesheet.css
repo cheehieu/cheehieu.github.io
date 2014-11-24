@@ -363,7 +363,6 @@ Full-Width Styles
 }
 
 /* Carousel */
-
 .slider {
   position: relative;
   width: 100%;
@@ -388,21 +387,17 @@ Full-Width Styles
 
 .slide-copy h1 {
   color: #363636;  
-  
   font-family: 'Oswald', sans-serif;
   font-weight: 400;
-  
   font-size: 40px;
-  margin-top: 105px;
+  margin-top: 50px;
   margin-bottom: 0px;
 }
 
 .slide-copy h2 {
   color: #b7b7b7;
-  
   font-family: 'Oswald', sans-serif;
   font-weight: 400;
-  
   font-size: 40px;
   margin: 5px;
 }
@@ -421,31 +416,28 @@ Full-Width Styles
 }
 
 /* Slide feature */
-
 .slide-feature {
   text-align: center;
   height: 400px;
 }
 
 .slide-feature img {
-  margin-top: 112px;
-  margin-bottom: 28px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .slide-feature a {
   display: block;
   color: #6fc5e0;
-  
   font-family: "HelveticaNeueMdCn", Helvetica, sans-serif;
   font-family: 'Oswald', sans-serif;
   font-weight: 400;
-  
   font-size: 20px;
 }
 
 .slider-nav {
   text-align: center;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .arrow-prev {
@@ -481,7 +473,6 @@ Full-Width Styles
 }
 
 /* App links */
-
 .get-app {
   list-style: none;
   padding-bottom: 9px;
