@@ -4,7 +4,7 @@
 <title>Nifty Hedgehog</title>
 <link rel="icon" type="image/x-icon" href="favicon.ico">
 <!--Google fonts-->
-<!--link rel="stylesheet" href="stylesheets/bootstrap.css"-->
+<link rel="stylesheet" href="stylesheets/bootstrap.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
@@ -21,6 +21,13 @@
 </head>
 
 <body>
+  <div class="banners">
+	<a id="forkme_banner" href="https://github.com/cheehieu">View on GitHub</a>
+	<a id="linkedin_banner" href="http://www.linkedin.com/in/hieuminh">
+      <img src="https://static.licdn.com/scds/common/u/img/webpromo/btn_viewmy_120x33.png" width="120" height="33" border="0" alt="View Hieu Nguyen's profile on LinkedIn">
+    </a>
+  </div>
+  
   <div class="header">
     <h1>Nifty Hedgehog!</h1>
 	<p>Where intrepidness meets stupidity.</p>
@@ -29,12 +36,11 @@
   <div class="nav">
 	  <div class="container">
 		<ul class="nav nav-tabs">
-		  <li class="active"><a href="index.html">Home</a></li>
+		  <li class="active"><a href="http://niftyhedgehog.com/">Home</a></li>
 		  <li><a href="about.html">About</a></li>
 		  <li class="dropdown">
-			<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-			Projects <span class="caret"></span></a>
-		    <ul class="dropdown-menu" role="menu">
+			<a href="#" class="dropdown-toggle">Projects <b class="caret"></b></a>
+		    <ul class="dropdown-menu">
 			  <li><a href="http://niftyhedgehog.com/catlady">catlady</a></li>
 			  <li class="divider"></li>
 			  <li><a href="http://niftyhedgehog.com/pm-board-zoo">pm-board-zoo</a></li>
@@ -50,18 +56,85 @@
       </div>
   </div>
   
-  <div class="banners">
-	<a id="forkme_banner" href="https://github.com/cheehieu">View on GitHub</a>
-	<a id="linkedin_banner" href="http://www.linkedin.com/in/hieuminh">
-      <img src="https://static.licdn.com/scds/common/u/img/webpromo/btn_viewmy_120x33.png" width="120" height="33" border="0" alt="View Hieu Nguyen's profile on LinkedIn">
-    </a>
-  </div>
-  
-  <div class="jumbotron">
+   <!--div class="jumbotron">
     <div class="container">
 	
     </div>
-  </div>
+  </div-->
+  
+    <div class="slider">
+
+	<div class="slide active-slide slide-feature">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12">
+              <a href="#"><img src="images/hedgehog_drawing.png"></a>
+              <a href="#">Be nifty.</a>
+            </div>
+          </div>
+        </div>      
+      </div> 
+	
+      <div class="slide">
+        <div class="container">
+          <div class="row">
+            <div class="slide-copy col-xs-5">
+              <h1>afternoon-cape</h1>
+              <p>A Power Monitor (PM aka "Afternoon") cape for the BeagleBone Black. The AfternoonCape utilizes the INA226 instrumentation amplifier to accurately sample and monitor voltage, current, and power consumption of a given supply.</p>
+              <ul class="get-app">
+                <li><a href="#"><img src="http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/flipboard/ios.png"></a></li>
+                <li><a href="#"><img src="http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/flipboard/android.png"></a></li>
+                <li><a href="#"><img src="http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/flipboard/windows.png"></a></li>
+                <li><a href="#"><img src="http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/flipboard/blackberry.png"></a></li>
+              </ul>
+            </div>
+            <div class="slide-img col-xs-7">
+              <img src="http://niftyhedgehog.com/afternoon-cape/images/pmcape_A3_oshpark_bottom.png" width="540px">
+            </div>
+          </div>
+        </div>      
+      </div>
+
+      <div class="slide">
+        <div class="container">
+          <div class="row">
+            <div class="slide-copy col-xs-5">
+              <h1>rtdc</h1>
+              <p>The Remote Temperature Daughter Card (RTDC) uses a TMP441 to monitor the temperature of a remote thermal diode. By using a sequential current excitation, the RTDC can extract a differential VBE on the transistor and calculate its junction temperature.</p>
+            </div>
+            <div class="slide-img col-xs-7">
+              <img src="http://niftyhedgehog.com/rtdc/images/rtdc-pcb-assembled.jpg">
+            </div>
+          </div>
+        </div>      
+      </div> 
+
+      <div class="slide">
+        <div class="container">
+          <div class="row">
+            <div class="slide-copy col-xs-5">
+              <h1>rc-car-collision</h1>
+              <p>A real-time computer system to prevent head-on traffic collisions on a scaled hardware platform consisting of R/C car, microcontroller, and Android-powered smartphones. This project encompassed analog signal processing, Bluetooth communication, motor control, interrupts & scheduling, fault-tolerance & recovery.</p>
+            </div>
+            <div class="slide-img col-xs-7">
+              <img src="http://niftyhedgehog.com/rc-car-collision/images/profile_view.jpg" width="540px">
+            </div>
+          </div>
+        </div>      
+      </div> 
+
+    </div>
+
+    <div class="slider-nav">
+      <a href="#" class="arrow-prev"><img src="images/arrow-prev.png"></a>
+      <ul class="slider-dots">
+        <li class="dot active-dot">&bull;</li>
+        <li class="dot">&bull;</li>
+        <li class="dot">&bull;</li>
+        <li class="dot">&bull;</li>
+      </ul>
+      <a href="#" class="arrow-next"><img src="images/arrow-next.png"></a>
+    </div> 
   
   <div class="content">
     <div class="container">
@@ -102,6 +175,9 @@
 	  <li>|</li>
 	</ul>
   </div>
+  
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="javascripts/app.js"></script>
 </body>
 
 </html>
