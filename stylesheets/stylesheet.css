@@ -288,13 +288,8 @@ Full-Width Styles
   display: block;
   position: absolute;
   top:30px;
-  right: 10px;
-  z-index: 10;
+  right: 0px;
   padding: 10px 10px 10px 10px;
-  color: #fff;
-  font-weight: 700;
-  border-bottom-left-radius: 2px;
-  border-bottom-right-radius: 2px;
 }
 
 .nav-tabs {
