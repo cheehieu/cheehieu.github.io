@@ -344,6 +344,17 @@ Full-Width Styles
 	font-style: italic;
 	margin-top: -70px;
 	margin-left: 50px;
+	margin-bottom: 30px;
+}
+
+.feature {
+	text-align: center;
+}
+
+.feature h1{
+	font-size: 50px;
+	font-family: fantasy;
+	border-top: 1px solid #ddd;
 }
 
 .content {
@@ -363,27 +374,12 @@ Full-Width Styles
 	font-family: Georgia;
 }
 
-.footer a {
-    font-size: 10px;
-    font-weight: bold;
-    text-transform: uppercase;
-}
-
-.footer li {
-	list-style-type: none; 
-	display: inline; 
-	padding-left: 10px; 
-	padding-right: 10px;
-}
-
 /* Carousel */
 .slider {
   position: relative;
   width: 100%;
   height: 400px;
-  border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
-  margin-top: 0px;
 }
 
 .slide {
@@ -421,7 +417,7 @@ Full-Width Styles
 .slide-copy p {
   color: #959595;
   font-family: Georgia, "Times New Roman", serif;
-  font-size: 1.15em;
+  font-size: 16px;
   line-height: 1.75em;
   margin-bottom: 15px;
   margin-top: 16px;
@@ -448,7 +444,7 @@ Full-Width Styles
 
 .slide-feature a {
   display: block;
-  color: #6fc5e0;
+  color: #6fc50;
   font-family: "HelveticaNeueMdCn", Helvetica, sans-serif;
   font-family: 'Oswald', sans-serif;
   font-weight: 400;
