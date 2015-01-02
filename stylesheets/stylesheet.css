@@ -561,6 +561,10 @@ Small Device Styles
   h6 {
     font-size: 12px;
   }
+  
+  p {
+	font-size: 24px;
+  }
 
   code, pre {
     min-width: 320px;
