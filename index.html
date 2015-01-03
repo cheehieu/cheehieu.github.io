@@ -27,11 +27,11 @@
 </head>
 
 <body>
-  <!--div class="banners">
+  <div class="banners">
 	<a id="forkme_banner" href="https://github.com/cheehieu">View on GitHub</a>
 	<a id="linkedin_banner" href="http://www.linkedin.com/in/hieuminh"></a>
 	<div id="changetip_tipme_button" data-bid="PV5ADgwH5YWX5opUxrWcLQ" data-uid="mDtb3nGBZud7dRfdt4xG77"></div><script>(function(document,script,id){var js,r=document.getElementsByTagName(script)[0],protocol=/^http:/.test(document.location)?'http':'https';if(!document.getElementById(id)){js=document.createElement(script);js.id=id;js.src=protocol+'://widgets.changetip.com/public/js/widgets.js';r.parentNode.insertBefore(js,r)}}(document,'script','changetip_w_0'));</script>
-  </div-->
+  </div>
   
   <div class="header">
     <div class="container">
@@ -50,40 +50,17 @@
 	  </div>
     </div>
   </div>
-  
-  <div class="blurb">
-    <div class="container">
-	  <div class="row">
-	    <div class="col-md-6"></div>
-		<div class="col-md-12 col-xs-12">
-		  <!--javascript to determine time of day, good morning, good afternoon, good evening, greetings earthling-->
-		  <!--p>Greetings, Earthling!</p>
-		  <p>Welcome to NiftyHedgehog, an initiative to increase my web-presence while documenting personal projects, thoughts, and experiences.</p>
-		  <p>Unfortunately, there will be very few hedgehogs during your visit here :( But hey, one hedgehog is better than no hedgehog!</p-->
-		</div>
-	  </div>
-    </div>
-  </div>
-
-  <!--div class="feature">
-    <div class="container">
-	  <div class="row">
-		<div class="col-md-12">
-          <h1>Featured Projects:</h1>
-		</div>
-	  </div>
-	</div>
-  </div-->
 
   <div class="slider">
 
       <div class="slide active-slide">
         <div class="container">
-          <div class="row">
-		    <div class="col-md-3"></div>
-            <div class="blurb slide-window slide-copy col-md-6 col-xs-12">
-			  <p>Greetings, Earthling! Welcome to NiftyHedgehog, an initiative to increase my web-presence while documenting personal projects, thoughts, and experiences.</p>
-			  <p>Unfortunately, there will be very few hedgehogs during your visit here :( But hey, one hedgehog is better than no hedgehog!</p>
+          <div class="row slide-window">
+		    <div class="col-md-1"></div>
+            <div class="blurb col-md-10 col-xs-12">
+			  <h2>"Greetings, Earthling! Welcome to <strong>NiftyHedgehog</strong>, an initiative to increase my web-presence while documenting personal projects, thoughts, and experiences.</h2>
+			  <h2>Unfortunately, there will be very few hedgehogs during your visit here... &#9785 But hey, one hedgehog is better than no hedgehog!"</h2>
+			  <p>--Hieu</p>
 			</div>
           </div>
         </div>
@@ -94,10 +71,11 @@
           <div class="row slide-window">
 		    <div class="col-md-1"></div>
             <div class="slide-copy col-md-4 col-xs-12">
-              <h1><a href="http://niftyhedgehog.com/afternoon-cape">afternoon-cape</a></h1>
-              <p>A Power Monitor (PM aka "Afternoon") cape for the BeagleBone Black. The AfternoonCape utilizes the INA226 instrumentation amplifier to accurately sample and monitor voltage, current, and power consumption of a given supply.</p>
-            </div>
-            <div class="slide-img col-md-6 col-xs-12">
+              <h1>afternoon-cape</h1>
+              <p>A low-cost Power Monitoring (PM aka "afternoon") cape for the BeagleBone Black. The AfternoonCape utilizes the INA226 instrumentation amplifier to accurately sample and monitor voltage, current, and power consumption of a given supply.</p>
+              <p><a href="http://niftyhedgehog.com/afternoon-cape">Read more >></a></p>
+			</div>
+            <div class="slide-img col-md-7 col-xs-12">
               <a href="http://niftyhedgehog.com/afternoon-cape/images/pmcape_A3_oshpark_bottom.png"><img src="http://niftyhedgehog.com/afternoon-cape/images/pmcape_A3_oshpark_bottom.png"></a>
             </div>
           </div>
@@ -107,14 +85,14 @@
       <div class="slide">
         <div class="container">
           <div class="row slide-window">
-		    <div class="col-md-1"></div>
-            <div class="slide-copy col-md-4 col-xs-12">
-              <h1><a href="http://niftyhedgehog.com/rtdc">rtdc</a></h1>
-              <p>The Remote Temperature Daughter Card (RTDC) uses a TMP441 to monitor the temperature of a remote thermal diode. By using a sequential current excitation, the RTDC can extract a differential VBE on the transistor and calculate its junction temperature.</p>
-            </div>
-            <div class="slide-img col-md-6 col-xs-12">
+			<div class="slide-img col-md-7 col-xs-12">
               <a href="http://niftyhedgehog.com/rtdc/images/rtdc-pcb-assembled.jpg"><img src="http://niftyhedgehog.com/rtdc/images/rtdc-pcb-assembled.jpg"></a>
             </div>
+            <div class="slide-copy col-md-4 col-xs-12">
+              <h1>rtdc</h1>
+              <p>The Remote Temperature Daughter Card (RTDC) uses a TMP441 to monitor the temperature of a remote thermal diode. By using a sequential current excitation, the RTDC can extract a differential VBE on the transistor and estimate its junction temperature within +/-1 degree Celsius.</p>
+              <p><a href="http://niftyhedgehog.com/rtdc">Read more >></a></p>
+			</div>
           </div>
         </div>      
       </div> 
@@ -124,10 +102,11 @@
           <div class="row slide-window">
 		    <div class="col-md-1"></div>
             <div class="slide-copy col-md-4 col-xs-12">
-              <h1><a href="http://niftyhedgehog.com/rc-car-collision">rc-car-collision</a></h1>
-              <p>A real-time computer system to prevent head-on traffic collisions on a scaled hardware platform consisting of R/C car, microcontroller, and Android-powered smartphones. This project encompassed analog signal processing, Bluetooth communication, motor control, interrupts & scheduling, fault-tolerance & recovery.</p>
-            </div>
-            <div class="slide-img col-md-6 col-xs-12">
+              <h1>rc-car-collision</h1>
+              <p>A real-time computer system to prevent head-on traffic collisions on a scaled hardware platform consisting of R/C car, microcontroller, and Android-powered smartphones. This project encompassed analog signal processing, Bluetooth communication, motor control, interrupts & scheduling, and fault-tolerance & recovery.</p>
+              <p><a href="http://niftyhedgehog.com/rc-car-collision">Read more >></a></p>
+			</div>
+            <div class="slide-img col-md-7 col-xs-12">
               <a href="http://niftyhedgehog.com/rc-car-collision/images/profile_view.jpg"><img src="http://niftyhedgehog.com/rc-car-collision/images/profile_view.jpg"></a>
             </div>
           </div>

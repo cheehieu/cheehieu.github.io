@@ -287,12 +287,6 @@ Full-Width Styles
 
 .header {
 	background: #fff;
-	#90ee90	/*light green*/
-	#008000	/*green*/
-	#00CCFF	/*light blue*/
-	#00CC33	/*light green*/
-	#444444 /*dark grey*/
-	
 }
 
 .logo {
@@ -301,12 +295,10 @@ Full-Width Styles
 }
 
 .logo img{
-	text-align: center;
 	height: 100px;
 }
 
 .logo p{
-	text-align: center;
 	font-size: 14px;
 	font-weight: bold;
 	font-style: italic;
@@ -315,9 +307,8 @@ Full-Width Styles
 
 .navbar {
 	text-align: center;
-	border-bottom: 1px solid #ddd;
-	margin-top: 0px;
 	background: #fff;
+	border-bottom: 1px solid #ddd;
 }
 
 .navbar li {
@@ -332,7 +323,8 @@ Full-Width Styles
 }
 
 .navbar a:hover {
-	color: #000;
+	color: #888;
+	text-decoration: underline !important;
 	background-color: #FFF !important;
 }
 
@@ -341,11 +333,24 @@ Full-Width Styles
 	font-weight: 800;
 }
 
+.active a:hover {
+	color: #444;
+	text-decoration: underline !important;
+	background-color: #FFF !important;
+}
+
 .blurb {
 	text-align: left;
-	font-size: 18px;
-	padding-top: 30px;
-	padding-bottom: 30px;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.blurb h2 {
+	color: #444;
+	font-size: 26px;
+	font-weight: 400;
+	font-style: italic;
 }
 
 .footer {
@@ -356,7 +361,7 @@ Full-Width Styles
 }
 
 .footer p {
-	font-size: 10px;
+	font-size: 12px;
 	font-style: italic;
 }
 
@@ -364,134 +369,107 @@ Full-Width Styles
 .slider {
   position: relative;
   width: 100%;
-  height: 500px;
+  height: 550px;
 }
 
 .slide {
-  display: none;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
 }
 
 .active-slide {
-  display: block;
+	display: block;
 }
 
 .slide-window{
-	height: 500px;
+	height: 550px;
 	background: #99FFFF;
-	border-top: 1px solid #ddd;
-	border-bottom: 1px solid #ddd;
+	border-top: 2px solid #ddd;
+	border-bottom: 2px solid #ddd;
+}
+
+.slide-copy {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
 }
 
 .slide-copy h1 {
-  color: #363636;  
-  font-weight: 400;
-  font-size: 40px;
-  margin-top: 50px;
-  margin-bottom: 0px;
+	color: #444;
+	font-size: 40px;
+	font-weight: 600;
 }
 
 .slide-copy h2 {
-  color: #b7b7b7;
-  font-weight: 400;
-  font-size: 40px;
-  margin: 5px;
+	color: #444;
+	font-size: 18px;
+	font-weight: 400;
 }
 
 .slide-copy p {
-  color: #959595;
-  font-size: 16px;
-  line-height: 1.75em;
-  margin-bottom: 15px;
-  margin-top: 16px;
+	color: #444;
+	font-size: 18px;
+	font-weight: 400;
+}
+
+.slide-copy a {
+	color: #;
+	text-decoration: underline;
 }
 
 .slide-img {
-  text-align: left;
+	text-align: center;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
 }
 
 .slide-img img{
-  height: 350px;
-}
-
-/* Slide feature */
-.slide-feature {
-  text-align: center;
-  height: 400px;
-}
-
-.slide-feature img {
-  margin-top: 30px;
-  margin-bottom: 30px;
-}
-
-.slide-feature a {
-  display: block;
-  color: #6fc50;
-	font-family: 'Open Sans', Helvetica, sans-serif;
-  font-family: 'Oswald', sans-serif;
-  font-weight: 400;
-  font-size: 20px;
+	/*height: 500px;*/
+	width: 600px;
 }
 
 .slider-nav {
-  text-align: center;
-  margin-top: 10px;
+	text-align: center;
+	margin-top: 10px;
 }
 
 .arrow-prev {
-  margin-right: 45px;
-  display: inline-block;
-  vertical-align: top;
-  margin-top: 9px;
+	margin-right: 45px;
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 9px;
 }
 
 .arrow-next {
-  margin-left: 45px;
-  display: inline-block;
-  vertical-align: top;
-  margin-top: 9px;
+	margin-left: 45px;
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 9px;
 }
 
 .slider-dots {
-  list-style: none;
-  display: inline-block;
-  padding-left: 0;
-  margin-bottom: 0;
+	list-style: none;
+	display: inline-block;
+	padding-left: 0;
+	margin-bottom: 0;
 }
 
 .slider-dots li {
-  color: #bbbcbc;
-  display: inline;
-  font-size: 30px;
-  margin-right: 5px;
+	color: #bbbcbc;
+	display: inline;
+	font-size: 30px;
+	margin-right: 5px;
 }
 
 .slider-dots li.active-dot {
-  color: #363636;
+	color: #444;
 }
 
-/* App links */
-.get-app {
-  list-style: none;
-  padding-bottom: 9px;
-  padding-left: 0px;
-  padding-top: 9px;
-}
-
-.get-app li {
-  float: left;
-  margin-bottom: 5px;
-  margin-right: 5px;
-}
-
-.get-app img {
-  height: 40px;
-}
 
 /*******************************************************************************
 Small Device Styles
