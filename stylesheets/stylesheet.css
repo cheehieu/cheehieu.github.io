@@ -255,45 +255,6 @@ form {
 /*******************************************************************************
 Full-Width Styles
 *******************************************************************************/
-#wrapper {
-	min-height: 100%;
-	position: relative;
-}
-
-.banners {
-}
-
-#forkme_banner {
-  display: block;
-  position: absolute;
-  top:0;
-  right: 12px;
-  z-index: 10;
-  padding: 10px 42px 10px 10px;
-  color: #fff;
-  background: url('../images/blacktocat.png') #0090ff no-repeat 95% 50%;
-  font-weight: 600;
-  box-shadow: 0 0 10px rgba(0,0,0,.5);
-  border-bottom-left-radius: 2px;
-  border-bottom-right-radius: 2px;
-}
-
-#linkedin_banner {
-  display: block;
-  position: absolute;
-  top: 50px;
-  right: 0px;
-  padding: 33px 160px 10px 10px;
-  background: url('https://static.licdn.com/scds/common/u/img/webpromo/btn_viewmy_160x33.png') no-repeat;
-}
-
-#changetip_tipme_button {
-	position: absolute;
-	top: 88px;
-	right: 0px;
-	padding: 0px 12px 0px 0px;
-}
-
 .header {
 	background: #fff;
 }
@@ -433,7 +394,6 @@ Full-Width Styles
 .slider-nav {
 	text-align: center;
 	margin-top: 10px;
-	padding-bottom: 45px;	/*height of footer element*/
 }
 
 .arrow-prev {
@@ -454,7 +414,7 @@ Full-Width Styles
 	list-style: none;
 	display: inline-block;
 	padding-left: 0;
-	margin-bottom: 0;
+	margin-bottom: 25px;
 }
 
 .slider-dots li {
@@ -468,13 +428,48 @@ Full-Width Styles
 	color: #444;
 }
 
+.banners {
+	text-align: center;
+}
+
+#forkme_banner {
+  z-index: 10;
+  padding: 10px 40px 10px 10px;
+  background: url('../images/blacktocat.png') #0090ff no-repeat 95% 50%;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  box-shadow: 0 0 10px rgba(0,0,0,.5);
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+}
+
+#linkedin_banner {
+  padding: 10px;
+  background: url('https://static.licdn.com/scds/common/u/img/webpromo/btn_viewmy_160x33.png') no-repeat;
+}
+
+#changetip_tipme_button {
+	padding: 10px;
+	display: inline;
+}
+
+#github_logo {
+	height: 40px;
+	box-shadow: 0 0 10px rgba(0,0,0,.5);
+	margin: 5px;
+}
+
+#linkedin_logo {
+	height: 40px;
+	box-shadow: 0 0 10px rgba(0,0,0,.5);
+	margin: 5px;
+}
+
 .footer {
 	text-align: center;
-	width: 100%;
-	height: 45px;
-	position: absolute;
 	bottom: 0;
-	left: 0;
+	margin-top: 50px;
 }
 
 .footer p {
