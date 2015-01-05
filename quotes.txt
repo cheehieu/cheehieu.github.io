@@ -29,3 +29,16 @@ Be who you are and say what you mean. Those who mind don't matter and those who 
 Hello, Darkness, my old friend. I've come to talk with you again. Because a vision softly creeping left its seeds while I was sleeping. And the vision, that was planted in my brain withing the sound of silence.
 
 </quotes>
+
+rotating carousel slider
+show linkedin logo
+footer at bottom of page
+fix mobile formatting
+new favicon
+cross browser compatibility
+
+about page
+jekyll blog
+project page (iframe content generated from markdown readme)
+individual project pages
+project categories
