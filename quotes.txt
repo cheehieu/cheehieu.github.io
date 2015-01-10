@@ -33,9 +33,8 @@ Hello, Darkness, my old friend. I've come to talk with you again. Because a visi
 rotating carousel slider
 show linkedin logo
 footer at bottom of page
-fix mobile formatting
 new favicon
-cross browser compatibility
+cross browser compatibility (IE, firefox, mobile)
 
 about page
 jekyll blog
