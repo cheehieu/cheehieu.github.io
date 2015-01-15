@@ -280,6 +280,14 @@ form {
 	border-bottom: 1px solid #ddd;
 }
 
+.navbar-toggle {
+	float: right;
+}
+
+.navbar-toggle .icon-bar {
+	background-color: #ddd;
+}
+
 .navbar-collapse {
 	text-align: left;
 }
@@ -294,7 +302,11 @@ form {
 .navbar-collapse a:hover {
 	color: #888;
 	text-decoration: underline !important;
-	background-color: #fff !important;
+	background-color: #ddd !important;
+}
+
+.collapse {
+	text-align: left;
 }
 
 .active a{
@@ -305,21 +317,29 @@ form {
 .active a:hover {
 	color: #444;
 	text-decoration: underline !important;
+	background-color: #ddd !important;
+}
+
+
+@media (min-width: 768px) {
+	.navbar .navbar-nav {
+		display: inline-block;
+		float: none;
+		vertical-align: top;
+	}
+	
+	.navbar .navbar-collapse {
+		text-align: center;
+	}
+	
+	.navbar-collapse a:hover {
 	background-color: #fff !important;
 }
-
-.navbar-toggle {
-	float: center;
+	
+	.active a:hover {
+	background-color: #fff !important;
 }
-
-.navbar-toggle .icon-bar {
-	background-color: #fff;
 }
-
-.collapse {
-	text-align: left;
-}
-
 
 
 /* CAROUSEL */
