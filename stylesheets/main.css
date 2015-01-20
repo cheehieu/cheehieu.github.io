@@ -255,6 +255,7 @@ form {
 
 /* HEADER */
 .header {
+	text-align: center;
 	background: #fff;
 }
 
@@ -367,6 +368,10 @@ form {
   left: 0;
   min-width: 100%;
   height: 500px;
+}
+
+.carousel .carousel-inner h3, p {
+	text-align: left;
 }
 
 
