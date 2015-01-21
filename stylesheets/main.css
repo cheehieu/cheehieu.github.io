@@ -255,12 +255,10 @@ form {
 
 /* HEADER */
 .header {
-	text-align: center;
 	background: #fff;
 }
 
 .logo {
-	text-align: center;
 	background: #fff;
 }
 
@@ -269,6 +267,7 @@ form {
 }
 
 .logo p{
+	text-align: center;
 	font-size: 14px;
 	font-weight: bold;
 	font-style: italic;
