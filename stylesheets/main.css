@@ -333,12 +333,12 @@ form {
 	}
 	
 	.navbar-collapse a:hover {
-	background-color: #fff !important;
-}
+		background-color: #fff !important;
+	}
 	
 	.active a:hover {
-	background-color: #fff !important;
-}
+		background-color: #fff !important;
+	}
 }
 
 
