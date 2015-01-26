@@ -356,19 +356,20 @@ form {
   z-index: 10;
 }
 
+.carousel-caption h3 {
+	font-size: 24px;
+	font-weight: 400;
+	font-style: italic;
+}
+
+.carousel .carousel-inner h3, p {
+	text-align: left;
+}
+
 /* Declare heights because of positioning of img element */
 .carousel .item {
   height: 500px;
-  background-color: #777;
-}
-
-.tales {
-	width: 100%;
-}
-
-.carousel-inner {
-	width: 100%;
-	/*max-height: 800px !important;*/
+  background-color: #666;
 }
 
 .carousel-inner > .item > img {
@@ -381,11 +382,25 @@ form {
   padding-top: 25px;
 }
 
-.carousel .carousel-inner h3, p {
-	text-align: left;
+.carousel .slide1 {
+	background-color: #9CBA7F;
 }
 
+.carousel .slide2 {
+	background-color: #2980b9;
+}
 
+.carousel .slide3 {
+	background-color: #f1c40f;
+}
+
+.carousel .slide4 {
+	background-color: #c0392b;
+}
+
+/* http://flatuicolors.com/ 
+2ecc71, 27ae60, d35400, f1c40f, 16a085, ecf0f1, 1abc9c, f39c12, 3498db, e67e22, 2c3e50, c0392b
+*/
 
 /* SLIDER */
 /*
