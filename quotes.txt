@@ -42,3 +42,4 @@ jekyll blog
 project page (iframe content generated from markdown readme)
 individual project pages
 project categories
+change bootstrap, javascript links to be local
