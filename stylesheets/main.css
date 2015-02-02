@@ -43,13 +43,13 @@ Theme Styles
 
 html, 
 body {
-  box-sizing: border-box;
-  color:#373737;
-  background: #FFF;
-  font-size: 16px;
+	box-sizing: border-box;
+	color:#373737;
+	background: #FFF;
+	font-size: 16px;
 	font-family: 'Open Sans', Helvetica, sans-serif;
-  line-height: 1.5;
-  -webkit-font-smoothing: antialiased;
+	line-height: 1.5;
+	-webkit-font-smoothing: antialiased;
 	margin: 0;
 	padding: 0;
 	height: 100%;
@@ -339,18 +339,16 @@ form {
 	.active a:hover {
 		background-color: #fff !important;
 	}
+	
+	/*adjust Footer margin and carousel image scaling/appearance (hidden images?)*/
 }
 
 
 /* CAROUSEL */
-/* CUSTOMIZE THE CAROUSEL
--------------------------------------------------- */
-
-/* Carousel base class */
+/*-------------------------------------------------- */
 .carousel {
 	height: 500px;
 	max-width: 970px; 	/* width of bootstrap md class */
-	margin-bottom: 150px;
 }
 
 .carousel-caption {
@@ -427,6 +425,14 @@ form {
 }
 
 
+/* BODY */
+.about_headline {
+	font-family: monospace;
+	font-size: 36px;
+	font-weight: 800px;
+}
+
+
 /* FOOTER */
 #forkme_banner {
   z-index: 10;
@@ -468,7 +474,7 @@ form {
 
 .footer {
 	bottom: 0;
-	margin-top: 25px;
+	margin-top: 170px;
 	text-align: center;
 }
 
