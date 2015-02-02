@@ -277,7 +277,7 @@ form {
 .navbar {
 	text-align: center;
 	background: #fff;
-	border-bottom: 1px solid #ddd;
+	border-bottom: 1px solid #ccc;
 }
 
 .navbar-toggle {
@@ -285,7 +285,7 @@ form {
 }
 
 .navbar-toggle .icon-bar {
-	background-color: #ddd;
+	background-color: #ccc;
 }
 
 .navbar-collapse {
@@ -302,7 +302,7 @@ form {
 .navbar-collapse a:hover {
 	color: #888;
 	text-decoration: underline !important;
-	background-color: #ddd !important;
+	background-color: #ccc !important;
 }
 
 .collapse {
@@ -317,7 +317,7 @@ form {
 .active a:hover {
 	color: #444;
 	text-decoration: underline !important;
-	background-color: #ddd !important;
+	background-color: #ccc !important;
 }
 
 
@@ -348,41 +348,43 @@ form {
 
 /* Carousel base class */
 .carousel {
-  height: 500px;
-  margin-bottom: 60px;
+	height: 500px;
+	max-width: 970px; 	/* width of bootstrap md class */
+	margin-bottom: 150px;
 }
-/* Since positioning the image, we need to help out the caption */
+
 .carousel-caption {
-  z-index: 10;
-}
-
-.carousel-caption h3 {
-	font-size: 22px;
-	font-weight: 400;
-	font-style: italic;
-}
-
-.carousel .carousel-inner h3, p {
+	position: absolute;
+	right: 13%;
+	bottom: 5%;
+	left: 13%;
+	padding-top: 20px;
+	padding-bottom: 20px;
 	text-align: left;
 }
 
-/* Declare heights because of positioning of img element */
+.carousel-caption a, h2 {
+	color: #2ecc71;
+	text-decoration: underline;
+	line-height: 0;
+}
+
 .carousel .item {
-  height: 500px;
-  background-color: #666;
+	height: 500px;
 }
 
 .carousel-inner > .item > img {
-  max-width: 100%;
-  min-height: 70%;
-  max-height: 85%;
-  height: 500px;
-  margin: 0 auto;
-  padding-top: 25px;
+	max-width: 100%;
+	min-height: 70%;
+	max-height: 100%;
+	height: 500px;
+	margin: 0 auto;
+	padding-top: 0px;
+	padding-bottom: 0px;
 }
 
 .carousel .slide1 {
-	background-color: #FFFFFF;
+	background-color: #fff;
 }
 
 .carousel .slide2 {
@@ -398,16 +400,32 @@ form {
 }
 
 .carousel .slide5 {
-	background-color: #9CBA7F;
+	background-color: #9cba7f;
 }
 
 /* http://flatuicolors.com/ 
 2ecc71, 27ae60, d35400, f1c40f, 16a085, ecf0f1, 1abc9c, f39c12, 3498db, e67e22, 2c3e50, c0392b
 */
 
-.blurb {
-	text-align: right;
+.carousel-inner > .blurb > img {
+	max-height: 100%;
+	padding-top: 0px;
+	padding-bottom: 0px;
 }
+
+.blurb-caption {
+	position: absolute;
+	right: 15%;
+	bottom: 10%;
+	left: 65%;
+	z-index: 10;
+	color: #fff;
+	text-align: right;
+	text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
+	font-size: 16px;
+	font-weight: 400;
+}
+
 
 /* FOOTER */
 #forkme_banner {
