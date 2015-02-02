@@ -133,7 +133,7 @@ strong {
 img {
   position: relative;
   margin: 0 auto;
-  max-width: 739px;
+  max-width: 100%;
   padding: 5px;
   margin: 10px 0 10px 0;
   /*border:1px solid #ebebeb;
@@ -373,7 +373,6 @@ form {
 }
 
 .carousel-inner > .item > img {
-  min-width: 50%;
   max-width: 100%;
   min-height: 70%;
   max-height: 85%;
@@ -383,7 +382,7 @@ form {
 }
 
 .carousel .slide1 {
-	background-color: #9CBA7F;
+	background-color: #FFFFFF;
 }
 
 .carousel .slide2 {
@@ -398,123 +397,19 @@ form {
 	background-color: #c0392b;
 }
 
+.carousel .slide5 {
+	background-color: #9CBA7F;
+}
+
 /* http://flatuicolors.com/ 
 2ecc71, 27ae60, d35400, f1c40f, 16a085, ecf0f1, 1abc9c, f39c12, 3498db, e67e22, 2c3e50, c0392b
 */
 
-/* SLIDER */
-/*
-.slider {
-  position: relative;
-  width: 100%;
-  height: 550px;
-  margin-top: 10px;
+.blurb {
+	text-align: right;
 }
-
-.slide {
-	display: none;
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-}
-
-.active-slide {
-	display: block;
-}
-
-.slide-window{
-	height: 550px;
-	background: #99FFFF;
-	border-top: 2px solid #ddd;
-	border-bottom: 2px solid #ddd;
-}
-
-.slide-copy {
-	position: relative;
-	top: 50%;
-	transform: translateY(-50%);
-}
-
-.slide-copy h1 {
-	color: #444;
-	font-size: 40px;
-	font-weight: 600;
-}
-
-.slide-copy h2 {
-	color: #444;
-	font-size: 18px;
-	font-weight: 400;
-}
-
-.slide-copy p {
-	color: #444;
-	font-size: 18px;
-	font-weight: 400;
-}
-
-.read-more {
-	text-decoration: underline;
-}
-
-.slide-img {
-	text-align: center;
-	position: relative;
-	top: 50%;
-	transform: translateY(-50%);
-}
-
-.slide-img img{
-	/*height: 500px;*/
-	width: 600px;
-}
-
-.slider-nav {
-	text-align: center;
-	margin-top: 10px;
-}
-
-.arrow-prev {
-	margin-right: 45px;
-	display: inline-block;
-	vertical-align: top;
-	margin-top: 9px;
-}
-
-.arrow-next {
-	margin-left: 45px;
-	display: inline-block;
-	vertical-align: top;
-	margin-top: 9px;
-}
-
-.slider-dots {
-	list-style: none;
-	display: inline-block;
-	padding-left: 0;
-	margin-bottom: 25px;
-}
-
-.slider-dots li {
-	color: #bbbcbc;
-	display: inline;
-	font-size: 30px;
-	margin-right: 5px;
-}
-
-.slider-dots li.active-dot {
-	color: #444;
-}
-*/
-
 
 /* FOOTER */
-.banners {
-	text-align: center;
-}
-
 #forkme_banner {
   z-index: 10;
   padding: 10px 40px 10px 10px;
