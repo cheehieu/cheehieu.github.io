@@ -458,7 +458,11 @@ form {
 }
 
 .blog_post p {
-	font-size: 18px;
+	font-size: 16px;
+}
+
+#disqus_thread {
+	margin-top: 20px;
 }
 
 
