@@ -39,6 +39,7 @@ show linkedin logo
 footer at bottom of page
 new favicon
 cross browser compatibility (IE, firefox, mobile)
+periodic table HIEu footer
 
 about page
 jekyll blog

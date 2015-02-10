@@ -432,6 +432,29 @@ form {
 	font-weight: 800px;
 }
 
+.blog_title {
+	text-align: center;
+}
+
+.blog_title h1 {
+	font-size: 40px;
+	font-weight: 800px;
+}
+
+.blog_title h2 {
+	font-size: 24px;
+	font-weight: 400px;
+	color: #888;
+	text-decoration: none;
+}
+
+.blog_title h3 {
+	font-size: 16px;
+	font-weight: 400px;
+	color: #888;
+	text-decoration: italic;
+}
+
 
 /* FOOTER */
 #forkme_banner {
