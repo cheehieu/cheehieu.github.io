@@ -13,7 +13,7 @@ There is more starlight in the daytime than in the nightime.
 Not knowing where you're going is the best way to get somewhere you've never been.
 Sometimes it seems like we spend half of our lives trying to forget the best memories we've ever had, only to spend the other half trying to replicate them.
 We cannot count, cannot even properly imagine, the number of perspectives and variety of experiences offered by existence.
-Isn’t it strange that evolution would give us a sense of humour? --Calvin
+Isnâ€™t it strange that evolution would give us a sense of humour? --Calvin
 That's one of the remarkable things about life. It's never so bad that it can't get worse. --Calvin
 I never had any friends later on like the ones I had when I was twelve... does anyone? --Stand By Me
 This is not the darkest timeline.
@@ -32,10 +32,12 @@ I have never let my schooling interfere with my education. --M. Twain
 I have loved the stars too fondly to be fearful of the night. --S. Williams
 Never wait for the perfect moment. --Unknown
 Isn't it funny how day by day nothing changes but, when we look back everything is different. --C.S Lewis
-Society grows great when old men plants trees whose shade they know they will never sit in. --Greek Proverb
+A society grows great when old men plants trees whose shade they know they shall never sit in. --Greek proverb
+Act quickly, think slowly. --Greek proverb
+If you want something you've never had, then you've got to do something you've never done before. --Everest
 </quotes>
 
-rotating carousel slider
+rotating carousel slider fixed width
 show linkedin logo
 footer at bottom of page
 new favicon
@@ -44,7 +46,7 @@ periodic table HIEu footer
 
 about page
 jekyll blog
-project page (iframe content generated from markdown readme)
+project page (newer iframe content generated from markdown readme)
 individual project pages
 project categories
 change bootstrap, javascript links to be local
