@@ -565,7 +565,7 @@ form {
 		text-decoration: none;
 		position: absolute;
 		right: 10%;
-		bottom: 5%;
+		bottom: 0%;
 		left: 65%;
 		z-index: 0;
 		color: #fff;
@@ -577,7 +577,7 @@ form {
 	}
 	
 	.footer {
-		margin-top: 100px;
+		margin-top: 50px;
 	}
 
 }
