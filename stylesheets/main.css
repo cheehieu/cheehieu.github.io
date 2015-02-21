@@ -321,8 +321,13 @@ form {
 }
 
 
+
 /* CAROUSEL */
 /*-------------------------------------------------- */
+.no-carousel {
+	display: none;
+}
+
 .carousel {
 	height: 500px;
 	max-width: 970px; 	/* width of bootstrap md class */
@@ -529,6 +534,16 @@ form {
 
 /* Hide carousel and show basic description for small screens */
 @media (max-width: 768px) {
+	.no-carousel {
+		display: block;
+		margin-bottom: 20px;
+		line-height: 1.3;
+	}
+	
+	.no-carousel p {
+		font-style: italic;
+	}
+
 	.carousel {
 		height: auto;
 	}
@@ -558,21 +573,6 @@ form {
 	}
 	
 	.blurb-caption {
-		color: #888;
-		text-align: right;
-		font-size: 11px;
-		font-weight: 400;
-		text-decoration: none;
-		position: absolute;
-		right: 10%;
-		bottom: 0%;
-		left: 65%;
-		z-index: 0;
-		color: #fff;
-		text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
-	}
-	
-	.blurb-caption h6 {
 		display: none;
 	}
 	
