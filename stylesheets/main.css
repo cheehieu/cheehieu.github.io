@@ -321,29 +321,6 @@ form {
 }
 
 
-@media (min-width: 768px) {
-	.navbar .navbar-nav {
-		display: inline-block;
-		float: none;
-		vertical-align: top;
-	}
-	
-	.navbar .navbar-collapse {
-		text-align: center;
-	}
-	
-	.navbar-collapse a:hover {
-		background-color: #fff !important;
-	}
-	
-	.active a:hover {
-		background-color: #fff !important;
-	}
-	
-	/*adjust Footer margin and carousel image scaling/appearance (hidden images?)*/
-}
-
-
 /* CAROUSEL */
 /*-------------------------------------------------- */
 .carousel {
@@ -524,4 +501,83 @@ form {
 	font-size: 12px;
 	font-style: italic;
 	text-align: center;
+}
+
+
+/***** MEDIA QUERIES *****/
+@media (min-width: 768px) {
+	.navbar .navbar-nav {
+		display: inline-block;
+		float: none;
+		vertical-align: top;
+	}
+	
+	.navbar .navbar-collapse {
+		text-align: center;
+	}
+	
+	.navbar-collapse a:hover {
+		background-color: #fff !important;
+	}
+	
+	.active a:hover {
+		background-color: #fff !important;
+	}
+	
+	/*adjust Footer margin and carousel image scaling/appearance (hidden images?)*/
+}
+
+/* Hide carousel and show basic description for small screens */
+@media (max-width: 768px) {
+	.carousel {
+		height: auto;
+	}
+
+	.carousel .item {
+		height: auto;
+	}
+
+	.carousel-caption h2 {
+		text-align: center;
+	}
+	
+	.carousel-caption p {
+		display: none;
+	}
+	
+	.carousel-inner > .item > img {
+		width: auto;
+		height: auto;
+	}
+	
+	.carousel-caption a, h2 {
+		font-size: 20px;
+		color: #fff;
+		text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
+		padding: 20px;
+	}
+	
+	.blurb-caption {
+		color: #888;
+		text-align: right;
+		font-size: 11px;
+		font-weight: 400;
+		text-decoration: none;
+		position: absolute;
+		right: 10%;
+		bottom: 5%;
+		left: 65%;
+		z-index: 0;
+		color: #fff;
+		text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
+	}
+	
+	.blurb-caption h6 {
+		display: none;
+	}
+	
+	.footer {
+		margin-top: 100px;
+	}
+
 }
