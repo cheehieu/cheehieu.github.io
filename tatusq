@@ -1,0 +1,24 @@
+[1mdiff --git a/blog.html b/blog.html[m
+[1mindex 7583c64..28ea696 100644[m
+[1m--- a/blog.html[m
+[1m+++ b/blog.html[m
+[36m@@ -59,6 +59,7 @@[m
+ 			<div class="col-sm-1 col-md-2"></div>[m
+ 			<div class="col-xs-12 col-sm-10 col-md-8">[m
+ 				<h1>#Test post, please ignore.</h1>[m
+[32m+[m				[32m<a href="http://niftyhedgehog.com/blog#disqus_thread">Comment Count</a>[m
+ 				<h3>How to set up basic email with custom TLD</h3>[m
+ 				<p>Admittedly, I am not a great speaker or one who can quickly translate thoughts into clear, concise verbioge. Writing allows me to visualize complete sentences and construct them in ways to convey my perspective. I'm a slow writer, but that extra time allows a more graceful poet.</p>[m
+ 				<p>Anyway, I wanted to create a unique domain name for my personal website. My given name, Hieu Nguyen, is far too common and leaves no room for differentiation. So I settled on a combination of words, which could abbreviate to my initials (HMN). And with this obscure naming methodology, NiftyHedgehog was born.</h5>[m
+[1mdiff --git a/quotes.txt b/quotes.txt[m
+[1mindex e66cbd5..8b21c1c 100644[m
+[1m--- a/quotes.txt[m
+[1m+++ b/quotes.txt[m
+[36m@@ -39,6 +39,7 @@[m [mshow linkedin logo[m
+ footer at bottom of page[m
+ new favicon[m
+ cross browser compatibility (IE, firefox, mobile)[m
+[32m+[m[32mperiodic table HIEu in footer[m
+ [m
+ about page[m
+ jekyll blog[m
