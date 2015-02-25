@@ -414,6 +414,28 @@ form {
 	font-weight: 800px;
 }
 
+.project_listing {
+	text-align: center;
+	padding: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.project_listing h3 {
+	margin-top: -10px;
+	margin-bottom: -5px;
+}
+
+.project_listing a {
+	color: #444;
+	text-decoration: underline;
+}
+
+.img-circle {
+	height: 200px;
+	width: 200px;
+}
+
 .blog_title {
 	text-align: center;
 	
