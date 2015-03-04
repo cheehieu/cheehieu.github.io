@@ -414,6 +414,27 @@ form {
 	font-weight: 800px;
 }
 
+.project-categories {
+	text-align: center;
+}
+
+.project-categories li {
+	display: inline;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.projects h1 {
+	text-align: center;
+	font-size: 44px;
+	font-weight: 800px;
+}
+
+.projects a {
+	color: #444;
+	text-decoration: underline;
+}
+
 .project_listing {
 	text-align: center;
 	padding: 10px;
