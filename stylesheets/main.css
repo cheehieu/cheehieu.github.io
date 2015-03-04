@@ -415,13 +415,23 @@ form {
 }
 
 .project-categories {
-	text-align: center;
+	margin-top: 15px;
+	margin-bottom: 15px;
 }
 
 .project-categories li {
 	display: inline;
 	padding-left: 50px;
 	padding-right: 50px;
+}
+
+.projects {
+	text-align: center;
+}
+
+.project-categories btn {
+	margin-left: 50px;
+	margin-right: 50px;
 }
 
 .projects h1 {
@@ -432,7 +442,7 @@ form {
 
 .projects a {
 	color: #444;
-	text-decoration: underline;
+	text-decoration: none;
 }
 
 .project_listing {
