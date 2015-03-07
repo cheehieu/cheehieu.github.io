@@ -54,86 +54,81 @@
 		</div>
 	</div>
 
+	<h1 class="projects"><a name="featured">Featured</a></h1><!--carousel? with accordian dropdown for project list-->
+	<div id="myCarousel" class="carousel slide container" data-ride="carousel" data-interval="5000" data-pause="hover">
+		<!-- Indicators -->
+		<ol class="carousel-indicators">
+			<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+			<li data-target="#myCarousel" data-slide-to="1"></li>
+			<li data-target="#myCarousel" data-slide-to="2"></li>
+			<li data-target="#myCarousel" data-slide-to="3"></li>
+		</ol>
+		<div class="carousel-inner" role="listbox">
+			<div class="item active slide1 blurb">
+				<img src="http://niftyhedgehog.com/kinect-duplo-sensing/images/many_duplos.png" alt="First slide">
+				<div class="container">
+					<div class="blurb-caption">
+						<h2><a href="http://niftyhedgehog.com/kinect-duplo-sensing">kinect-duplo-sensing</a></h2>
+						<p></p>
+					</div>
+				</div>
+			</div>
+			<div class="item slide2">
+				<img src="http://niftyhedgehog.com/afternoon-cape/images/pmcape_A3_oshpark_bottom.png" alt="Second slide">
+				<div class="container">
+					<div class="carousel-caption">
+						<h2><a href="http://niftyhedgehog.com/afternoon-cape">afternoon-cape</a></h2>
+						<p>A low-cost power monitoring system, which utilizes instrumentation amplifiers to accurately sample and monitor voltage, current, and power consumption of a given supply.</p>
+					</div>
+				</div>
+			</div>
+			<div class="item slide3">
+				<img src="http://niftyhedgehog.com/rtdc/images/rtdc-pcb-assembled.jpg" alt="Third slide">
+				<div class="container">
+					<div class="carousel-caption">
+						<h2><a href="http://niftyhedgehog.com/rtdc">rtdc</a></h2>
+						<p>The Remote Temperature Daughter Card (RTDC) uses a TMP441 to estimate the junction temperature of a remote thermal diode within +/-1 degree.</p>
+					</div>
+				</div>
+			</div>
+			<div class="item slide4">
+				<img class="img-responsive" src="http://niftyhedgehog.com/rc-car-collision/images/profile_view.jpg" alt="Fourth slide">
+				<div class="container">
+					<div class="carousel-caption">
+						<h2><a href="http://niftyhedgehog.com/rc-car-collision">rc-car-collision</a></h2>
+						<p>A real-time computer system to prevent head-on traffic collisions on a scaled hardware platform consisting of R/C car, microcontroller, and Android-powered smartphones.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--Additional slides: blog posts (email), robotics, duplos, VR, bubbly-cloud-->
+		<!--Images should be the same resolution to have small screen carousel be fixed width, height during rotation-->
+		<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+			<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+			<span class="sr-only">Previous</span>
+		</a>
+		<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+			<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+			<span class="sr-only">Next</span>
+		</a>
+	</div>
+	
+	<div class="project-categories">
+		<a class="btn btn-default btn-lg" href="#hardware" role="button"><span class="glyphicon glyphicon-wrench" aria-hidden="true"></span> Hardware</a>
+		<a class="btn btn-default btn-lg" href="#software" role="button"><span class="glyphicon glyphicon-th" aria-hidden="true"></span> Software</a>
+		<a class="btn btn-default btn-lg" href="#misc" role="button"><span class="glyphicon glyphicon-lamp" aria-hidden="true"></span> Misc.</a>
+	</div>	
+	
 	<div class="container">
 		<div class="row">
 			<div class="projects col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
 
-				<!--format spacing, stacked for mobile screen size-->
-				
-				<h1><a name="featured">Featured</a></h1><!--carousel? with accordian dropdown for project list-->
-				<!--ul>
-					<li><a href="http://niftyhedgehog.com/kinect-duplo-sensing">kinect-duplo-sensing</a></li>
-					<li><a href="http://niftyhedgehog.com/afternoon-cape">afternoon-cape</a></li>
-					<li><a href="http://niftyhedgehog.com/rtdc">rtdc</a></li>
-				</ul-->
-				<div id="myCarousel" class="carousel slide container" data-ride="carousel" data-interval="8000" data-pause="hover">
-					<!-- Indicators -->
-					<ol class="carousel-indicators">
-						<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-						<li data-target="#myCarousel" data-slide-to="1"></li>
-						<li data-target="#myCarousel" data-slide-to="2"></li>
-						<li data-target="#myCarousel" data-slide-to="3"></li>
-					</ol>
-					<div class="carousel-inner" role="listbox">
-						<div class="item active slide1 blurb">
-							<img src="http://niftyhedgehog.com/kinect-duplo-sensing/images/many_duplos.png" alt="First slide">
-							<div class="container">
-								<div class="blurb-caption">
-									<h2><a href="http://niftyhedgehog.com/kinect-duplo-sensing">kinect-duplo-sensing</a></h2>
-									<p></p>
-								</div>
-							</div>
-						</div>
-						<div class="item slide2">
-							<img src="http://niftyhedgehog.com/afternoon-cape/images/pmcape_A3_oshpark_bottom.png" alt="Second slide">
-							<div class="container">
-								<div class="carousel-caption">
-									<h2><a href="http://niftyhedgehog.com/afternoon-cape">afternoon-cape</a></h2>
-									<p>A low-cost power monitoring system, which utilizes instrumentation amplifiers to accurately sample and monitor voltage, current, and power consumption of a given supply.</p>
-								</div>
-							</div>
-						</div>
-						<div class="item slide3">
-							<img src="http://niftyhedgehog.com/rtdc/images/rtdc-pcb-assembled.jpg" alt="Third slide">
-							<div class="container">
-								<div class="carousel-caption">
-									<h2><a href="http://niftyhedgehog.com/rtdc">rtdc</a></h2>
-									<p>The Remote Temperature Daughter Card (RTDC) uses a TMP441 to estimate the junction temperature of a remote thermal diode within +/-1 degree.</p>
-								</div>
-							</div>
-						</div>
-						<div class="item slide4">
-							<img class="img-responsive" src="http://niftyhedgehog.com/rc-car-collision/images/profile_view.jpg" alt="Fourth slide">
-							<div class="container">
-								<div class="carousel-caption">
-									<h2><a href="http://niftyhedgehog.com/rc-car-collision">rc-car-collision</a></h2>
-									<p>A real-time computer system to prevent head-on traffic collisions on a scaled hardware platform consisting of R/C car, microcontroller, and Android-powered smartphones.</p>
-								</div>
-							</div>
-						</div>
-					</div>
-					<!--Additional slides: blog posts (email), robotics, duplos, VR, bubbly-cloud-->
-					<!--Images should be the same resolution to have small screen carousel be fixed width, height during rotation-->
-					<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-						<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-						<span class="sr-only">Previous</span>
-					</a>
-					<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-						<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-						<span class="sr-only">Next</span>
-					</a>
-				</div>				
-
-				<div class="project-categories">
-					<a class="btn btn-default btn-lg" href="#hardware" role="button"><span class="glyphicon glyphicon-wrench" aria-hidden="true"></span> Hardware</a>
-					<a class="btn btn-default btn-lg" href="#software" role="button"><span class="glyphicon glyphicon-th" aria-hidden="true"></span> Software</a>
-					<a class="btn btn-default btn-lg" href="#misc" role="button"><span class="glyphicon glyphicon-lamp" aria-hidden="true"></span> Misc.</a>
-				</div>				
+				<!--format spacing, stacked for mobile screen size-->		
 				
 				<h1><a name="hardware">Hardware</a></h1>
 				<div class="row">
 					<div class="col-sm-6 project_listing">
-						<a href="http://niftyhedgehog.com/afternoon-cape"><img class="img-circle" src="http://niftyhedgehog.com/afternoon-cape/images/pmcape_A3_oshpark_bottom.png"></a>
+						<a href="http://niftyhedgehog.com/afternoon-cape"><img class="img-circle" src="http://niftyhedgehog.com/afternoon-cape/images/capes_display.jpg"></a>
 						<h3><a href="http://niftyhedgehog.com/afternoon-cape">afternoon-cape</a></h3>
 						<p>A low-cost power monitoring cape for the BeagleBone Black.</p>
 					</div>
