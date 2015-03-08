@@ -56,22 +56,20 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  margin: 10px 0;
-  font-weight: 700;
-  color:#222222;
+	margin: 10px 0;
+	font-weight: 700;
+	color:#222222;
 	font-family: 'Open Sans', Helvetica, sans-serif;
-  letter-spacing: -1px;
+	letter-spacing: -1px;
 }
 
 h1 {
   font-size: 36px;
-  font-weight: 700;
+  font-weight: 800;
 }
 
 h2 {
-  padding-bottom: 10px;
   font-size: 32px;
-  background: url('../images/bg_hr.png') repeat-x bottom;
 }
 
 h3 {
@@ -132,18 +130,6 @@ strong {
 
 img {
   position: relative;
-  margin: 0 auto;
-  max-width: 100%;
-  padding: 5px;
-  margin: 10px 0 10px 0;
-  /*border:1px solid #ebebeb;
-
-  box-shadow: 0 0 5px #ebebeb;
-  -webkit-box-shadow: 0 0 5px #ebebeb;
-  -moz-box-shadow: 0 0 5px #ebebeb;
-  -o-box-shadow: 0 0 5px #ebebeb;
-  -ms-box-shadow: 0 0 5px #ebebeb;
-  */
 }
 
 p img {
@@ -324,40 +310,18 @@ form {
 
 /* CAROUSEL */
 /*-------------------------------------------------- */
-.no-carousel {
-	display: none;
-}
-
 .carousel {
 	height: 500px;
 	max-width: 970px; 	/* width of bootstrap md class */
-}
-
-.carousel-caption {
-	position: absolute;
-	right: 13%;
-	bottom: 5%;
-	left: 13%;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	text-align: left;
-}
-
-.carousel-caption a, h2 {
-	color: #2ecc71;
-	text-decoration: underline;
-	line-height: 0;
 }
 
 .carousel .item {
 	height: 500px;
 }
 
-.carousel-inner > .item > img {
+.carousel-inner > .item > a, img {
 	max-width: 100%;
-	min-height: 70%;
-	max-height: 100%;
-	height: 500px;
+	max-height: 500px;
 	margin: 0 auto;
 	padding-top: 0px;
 	padding-bottom: 0px;
@@ -387,10 +351,21 @@ form {
 2ecc71, 27ae60, d35400, f1c40f, 16a085, ecf0f1, 1abc9c, f39c12, 3498db, e67e22, 2c3e50, c0392b
 */
 
-.carousel-inner > .blurb > img {
-	max-height: 100%;
-	padding-top: 0px;
-	padding-bottom: 0px;
+.carousel-caption {
+	position: absolute;
+	right: 13%;
+	bottom: 5%;
+	left: 13%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: right;
+}
+
+.carousel-caption a, h2 {
+	color: #2ecc71;
+	text-decoration: underline;
+	text-align: center;
+	text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
 }
 
 .blurb-caption {
@@ -409,7 +384,7 @@ form {
 
 /* BODY */
 .about_headline {
-	font-family: monospace;
+	font-family: 'Open Sans', Helvetica, sans-serif;
 	font-size: 36px;
 	font-weight: 800px;
 }
@@ -549,7 +524,7 @@ form {
 
 .footer {
 	bottom: 0;
-	margin-top: 170px;
+	margin-top: 145px;
 	text-align: center;
 }
 
@@ -584,32 +559,16 @@ form {
 	.active a:hover {
 		background-color: #fff !important;
 	}
-	
-	/*adjust Footer margin and carousel image scaling/appearance (hidden images?)*/
 }
 
 /* Hide carousel and show basic description for small screens */
 @media (max-width: 768px) {
-	.no-carousel {
-		display: block;
-		margin-bottom: 25px;
-		line-height: 1.3;
-	}
-	
-	.no-carousel p {
-		font-style: italic;
-	}
-
 	.carousel {
 		height: auto;
 	}
 
 	.carousel .item {
 		height: auto;
-	}
-
-	.carousel-caption h2 {
-		text-align: center;
 	}
 	
 	.carousel-caption p {
@@ -622,10 +581,11 @@ form {
 	}
 	
 	.carousel-caption a, h2 {
+		text-align: center;
+		margin-bottom: 15px;
 		font-size: 20px;
-		color: #fff;
+		color: #2ecc71;
 		text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
-		margin-bottom: 20px;
 	}
 	
 	.blurb-caption {
