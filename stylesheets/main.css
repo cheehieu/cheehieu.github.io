@@ -130,6 +130,10 @@ strong {
 
 img {
   position: relative;
+  margin: 0 auto;
+  max-width: 100%;
+  padding: 5px;
+  margin: 10px 0 10px 0;
 }
 
 p img {
@@ -320,7 +324,7 @@ form {
 }
 
 .carousel-inner > .item > a, img {
-	max-width: 100%;
+	max-width: 50%;
 	max-height: 500px;
 	margin: 0 auto;
 	padding-top: 0px;
@@ -384,7 +388,7 @@ form {
 
 /* BODY */
 .about_headline {
-	font-family: 'Open Sans', Helvetica, sans-serif;
+	font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
 	font-size: 36px;
 	font-weight: 800px;
 }
