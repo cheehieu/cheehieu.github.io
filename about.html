@@ -60,7 +60,21 @@
 				<!--Accordian tabs, #bookmarks to separate about NH, about Hieu, blinking cursor to mimic a command prompt-->
 				<h1 class="about_headline">#whoami</h1>
 				<p>My name is Hieu. I'm currently a systems applications engineer working on embedded processors in Dallas, TX. My interests change from time to time, but I've always enjoyed building things, working with my hands, and exploring the natural (and virtual) world around me. Outside of engineering, I like to play soccer and have recently started adventuring off the ground&mdash;into the ocean, and the sky!</p>
-				<p>Feel free to send me a <a href="mailto:hieu@niftyhedgehog.com?Subject=Greetings!" target="_top">message</a> or read some of my <a href="#">personal blog posts</a>!</p>
+				<!--p>Feel free to send me a <a href="mailto:hieu@niftyhedgehog.com?Subject=Greetings!" target="_top">message</a> or read some of my <a href="#">personal blog posts</a>!</p-->
+				<div class="btn-group">
+					<p>Feel free to send me a
+					<button class="btn btn-default btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false">
+					message <span class="caret"></span>
+					</button>
+					<ul class="dropdown-menu centerDropdown" role="menu">
+						<li role="presentation"><a role="menuitem" tabindex="-1" href="mailto:hieu@niftyhedgehog.com?Subject=Greetings!">Email<span class="glyphicon glyphicon-envelope pull-right"></span></a></li>
+						<li role="presentation" class="divider"></li>
+						<li role="presentation"><a role="menuitem" tabindex="-1" href="http://www.linkedin.com/in/hieuminh">LinkedIn<span class="glyphicon glyphicon-link pull-right"></span></a></li>
+						<li role="presentation" class="divider"></li>
+						<li role="presentation"><a role="menuitem" tabindex="-1" href="https://github.com/cheehieu">GitHub<span class="glyphicon glyphicon-globe pull-right"></span></a></li>
+					</ul>
+				</div>		
+				or read some of my <a href="#">personal blog posts</a>!</p>				
 				<img src="images/ocean/oilrig_dive.jpg">
 				<img src="images/sky/5_way.png">
 				<!--p>Randomly selected quote.</p-->
@@ -85,11 +99,12 @@
 	
 	<div class="footer">
 		<h5>Find me on
-			<a href="https://github.com/cheehieu"><img id="github_logo" src="http://niftyhedgehog.com/images/github_logo.png"></a>
+			<a href="https://github.com/cheehieu"><img id="github_logo" src="images/github.png"></a>
 			and
-			<a href="http://www.linkedin.com/in/hieuminh"><img id="linkedin_logo" src="http://niftyhedgehog.com/images/linkedin_logo.png"></a>
+			<a href="http://www.linkedin.com/in/hieuminh"><img id="linkedin_logo" src="images/linkedin.png"></a>
 		</h5>
 		<!--div id="changetip_tipme_button" data-bid="PV5ADgwH5YWX5opUxrWcLQ" data-uid="mDtb3nGBZud7dRfdt4xG77"></div><script>(function(document,script,id){var js,r=document.getElementsByTagName(script)[0],protocol=/^http:/.test(document.location)?'http':'https';if(!document.getElementById(id)){js=document.createElement(script);js.id=id;js.src=protocol+'://widgets.changetip.com/public/js/widgets.js';r.parentNode.insertBefore(js,r)}}(document,'script','changetip_w_0'));</script-->
+		<!--a href="mailto:hieu@niftyhedgehog.com"><i class="svg-icon email"></i></a-->
 		<p>&copy; <?php echo date("Y"); ?> Crafted by HMN. All rights reserved.</p>
 	</div>
 	

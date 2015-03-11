@@ -326,9 +326,10 @@ form {
 .carousel-inner > .item > a, img {
 	max-width: 100%;
 	max-height: 500px;
-	margin: 0 auto;
+	margin: 10px auto;
 	padding-top: 0px;
 	padding-bottom: 0px;
+	text-align: center;
 }
 
 .carousel .slide1 {
@@ -392,6 +393,15 @@ form {
 	font-size: 36px;
 	font-weight: 800px;
 }
+
+.centerDropdown {
+	left: auto !important;
+	right: -25% !important;
+}
+.centerDropdown:after {
+	left: auto !important;
+	right: 45% !important;
+}	
 
 .project-categories {
 	margin-top: 15px;
@@ -512,18 +522,12 @@ form {
 
 #github_logo {
 	height: 40px;
-	box-shadow: 0 0 10px rgba(0,0,0,.5);
 	margin-bottom: -10px;
-	margin-left: 10px;
-	margin-right: 10px;
 }
 
 #linkedin_logo {
 	height: 40px;
-	box-shadow: 0 0 10px rgba(0,0,0,.5);
 	margin-bottom: -10px;
-	margin-left: 10px;
-	margin-right: 10px;
 }
 
 .footer {
