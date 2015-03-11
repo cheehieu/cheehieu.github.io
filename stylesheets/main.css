@@ -324,7 +324,7 @@ form {
 }
 
 .carousel-inner > .item > a, img {
-	max-width: 50%;
+	max-width: 100%;
 	max-height: 500px;
 	margin: 0 auto;
 	padding-top: 0px;
@@ -388,7 +388,7 @@ form {
 
 /* BODY */
 .about_headline {
-	font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+	font-family: Terminal, monospace;
 	font-size: 36px;
 	font-weight: 800px;
 }
@@ -468,7 +468,7 @@ form {
 	font-size: 24px;
 	font-weight: 400px;
 	color: #888;
-	text-decoration: none;
+	text-decoration: none
 }
 
 .blog_title p {
