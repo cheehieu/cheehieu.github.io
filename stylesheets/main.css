@@ -465,7 +465,6 @@ form {
 
 .blog_title {
 	text-align: center;
-	
 }
 
 .blog_title h1 {
@@ -530,6 +529,13 @@ form {
 	margin-right: 5px;
 }
 
+.icon-github-sm {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	fill: #222;
+}
+
 .icon-linkedin {
 	display: inline-block;
 	width: 40px;
@@ -537,6 +543,13 @@ form {
 	fill: #0077b5;
 	margin-bottom: -10px;
 	margin-left: 5px;
+}
+
+.icon-linkedin-sm {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	fill: #0077b5;
 }
 
 .footer {
