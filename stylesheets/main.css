@@ -326,7 +326,7 @@ form {
 .carousel-inner > .item > a, img {
 	max-width: 100%;
 	max-height: 500px;
-	margin: 10px auto;
+	margin: 0px auto;
 	padding-top: 0px;
 	padding-bottom: 0px;
 	text-align: center;
