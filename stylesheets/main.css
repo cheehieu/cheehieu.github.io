@@ -387,6 +387,26 @@ form {
 }
 
 
+.carousel-projects {
+	width: 100%;
+	max-width: 970px; 	/* width of bootstrap md class */
+	margin-bottom: 100px;
+}
+
+.carousel-projects .item {
+	width: 100%
+}
+
+.carousel-inner-projects > .item > a, img {
+	max-width: 100%;
+	max-height: 500px;
+	margin: 0px auto;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	text-align: center;
+}
+
+
 /* BODY */
 .about_headline {
 	font-family: Terminal, monospace;

@@ -69,7 +69,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3 projects-blurb">
-				<p>This landing page consists of a collection of projects I've worked throughout college and my professional career. The <em><a href=#featured>Featured</a></em> section highlights newer projects that I've been working on. To view more projects, choose a category below: </p>
+				<p>This landing page contains a collection of projects I've worked on throughout college and my professional career. Everything is open source and available on GitHub. Find out more information by visiting the individual project pages, where you'll find documentation, reports, design files, and software sources. The <em><a href=#featured>Featured</a></em> carousel below highlights my most recent projects. To view more, choose from the following categories: </p>
 				
 				<!-- fix spacing for mobile, fix carousel image size change -->
 				<div class="project-categories">
@@ -77,69 +77,73 @@
 					<a class="btn btn-default btn-lg" href="#software" role="button"><span class="glyphicon glyphicon-th" aria-hidden="true"></span> Software</a>
 					<a class="btn btn-default btn-lg" href="#misc" role="button"><span class="glyphicon glyphicon-lamp" aria-hidden="true"></span> Misc.</a>
 				</div>	
+				
+				
+				<h1 class="projects"><a name="featured">Featured</a></h1>
+				<!--Additional slides: robotics, duplos, VR, bubbly-cloud-->
+				<div id="myCarousel" class="carousel slide container carousel-projects" data-ride="carousel" data-interval="5000" data-pause="hover">
+					<!-- Indicators -->
+					<ol class="carousel-indicators">
+						<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+						<li data-target="#myCarousel" data-slide-to="1"></li>
+						<li data-target="#myCarousel" data-slide-to="2"></li>
+						<li data-target="#myCarousel" data-slide-to="3"></li>
+					</ol>
+					<div class="carousel-inner carousel-inner-projects" role="listbox">
+						<div class="item active slide1">
+							<img src="http://niftyhedgehog.com/kinect-duplo-sensing/images/many_duplos.png" alt="First slide">
+							<div class="container">
+								<div class="carousel-caption">
+									<h2><a href="http://niftyhedgehog.com/kinect-duplo-sensing">kinect-duplo-sensing</a></h2>
+									<p></p>
+								</div>
+							</div>
+						</div>
+						<div class="item slide2">
+							<img src="http://niftyhedgehog.com/afternoon-cape/images/pmcape_A3_oshpark_bottom.png" alt="Second slide">
+							<div class="container">
+								<div class="carousel-caption">
+									<h2><a href="http://niftyhedgehog.com/afternoon-cape">afternoon-cape</a></h2>
+									<p>A low-cost power monitoring system, which utilizes instrumentation amplifiers to accurately sample and monitor voltage, current, and power consumption of a given supply.</p>
+								</div>
+							</div>
+						</div>
+						<div class="item slide3">
+							<img src="http://niftyhedgehog.com/rtdc/images/rtdc-pcb-assembled.jpg" alt="Third slide">
+							<div class="container">
+								<div class="carousel-caption">
+									<h2><a href="http://niftyhedgehog.com/rtdc">rtdc</a></h2>
+									<p>The Remote Temperature Daughter Card (RTDC) uses a TMP441 to estimate the junction temperature of a remote thermal diode within +/-1 degree.</p>
+								</div>
+							</div>
+						</div>
+						<div class="item slide4">
+							<img class="img-responsive" src="http://niftyhedgehog.com/rc-car-collision/images/profile_view.jpg" alt="Fourth slide">
+							<div class="container">
+								<div class="carousel-caption">
+									<h2><a href="http://niftyhedgehog.com/rc-car-collision">rc-car-collision</a></h2>
+									<p>A real-time computer system to prevent head-on traffic collisions on a scaled hardware platform consisting of R/C car, microcontroller, and Android-powered smartphones.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!--Additional slides: blog posts (email), robotics, duplos, VR, bubbly-cloud-->
+					<!--Images should be the same resolution to have small screen carousel be fixed width, height during rotation-->
+					<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+						<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+						<span class="sr-only">Previous</span>
+					</a>
+					<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+						<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+						<span class="sr-only">Next</span>
+					</a>
+				</div>
+
+				
 			</div>
 		</div>
 	</div>
 	
-	<h1 class="projects"><a name="featured">Featured</a></h1><!--carousel? with accordian dropdown for project list-->
-	<!--Additional slides: blog posts (email), robotics, duplos, VR, bubbly-cloud-->
-	<div id="myCarousel" class="carousel slide container" data-ride="carousel" data-interval="5000" data-pause="hover">
-		<!-- Indicators -->
-		<ol class="carousel-indicators">
-			<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-			<li data-target="#myCarousel" data-slide-to="1"></li>
-			<li data-target="#myCarousel" data-slide-to="2"></li>
-			<li data-target="#myCarousel" data-slide-to="3"></li>
-		</ol>
-		<div class="carousel-inner" role="listbox">
-			<div class="item active slide1">
-				<img src="http://niftyhedgehog.com/kinect-duplo-sensing/images/many_duplos.png" alt="First slide">
-				<div class="container">
-					<div class="blurb-caption">
-						<h2><a href="http://niftyhedgehog.com/kinect-duplo-sensing">kinect-duplo-sensing</a></h2>
-						<p></p>
-					</div>
-				</div>
-			</div>
-			<div class="item slide2">
-				<img src="http://niftyhedgehog.com/afternoon-cape/images/pmcape_A3_oshpark_bottom.png" alt="Second slide">
-				<div class="container">
-					<div class="carousel-caption">
-						<h2><a href="http://niftyhedgehog.com/afternoon-cape">afternoon-cape</a></h2>
-						<p>A low-cost power monitoring system, which utilizes instrumentation amplifiers to accurately sample and monitor voltage, current, and power consumption of a given supply.</p>
-					</div>
-				</div>
-			</div>
-			<div class="item slide3">
-				<img src="http://niftyhedgehog.com/rtdc/images/rtdc-pcb-assembled.jpg" alt="Third slide">
-				<div class="container">
-					<div class="carousel-caption">
-						<h2><a href="http://niftyhedgehog.com/rtdc">rtdc</a></h2>
-						<p>The Remote Temperature Daughter Card (RTDC) uses a TMP441 to estimate the junction temperature of a remote thermal diode within +/-1 degree.</p>
-					</div>
-				</div>
-			</div>
-			<div class="item slide4">
-				<img class="img-responsive" src="http://niftyhedgehog.com/rc-car-collision/images/profile_view.jpg" alt="Fourth slide">
-				<div class="container">
-					<div class="carousel-caption">
-						<h2><a href="http://niftyhedgehog.com/rc-car-collision">rc-car-collision</a></h2>
-						<p>A real-time computer system to prevent head-on traffic collisions on a scaled hardware platform consisting of R/C car, microcontroller, and Android-powered smartphones.</p>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!--Additional slides: blog posts (email), robotics, duplos, VR, bubbly-cloud-->
-		<!--Images should be the same resolution to have small screen carousel be fixed width, height during rotation-->
-		<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-			<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-			<span class="sr-only">Previous</span>
-		</a>
-		<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-			<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-			<span class="sr-only">Next</span>
-		</a>
-	</div>
 	
 	<div class="container">
 		<div class="row">
