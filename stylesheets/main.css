@@ -303,7 +303,7 @@ form {
 	text-align: left;
 }
 
-.active a{
+.active a {
 	color: #444;
 	font-weight: 800;
 }
@@ -660,7 +660,17 @@ form {
 	.navbar-active-page {
 		display: block;
 		color: #444;
-		text-transform: uppercase;		
+		text-transform: uppercase;
+		margin-left: 20px;
+		font-size: 22px;
+	}
+	
+	.navbar-collapse a {
+		background-color: #eee;
+	}
+	
+	.active-page a {
+		background-color: #ccc;
 	}
 	
 	.carousel {
