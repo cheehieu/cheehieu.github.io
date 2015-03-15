@@ -270,6 +270,10 @@ form {
 	border-bottom: 1px solid #ccc;
 }
 
+.navbar-active-page {
+	display: none;
+}
+
 .navbar-toggle {
 	float: right;
 }
@@ -653,6 +657,12 @@ form {
 
 /* Hide carousel and show basic description for small screens */
 @media (max-width: 768px) {
+	.navbar-active-page {
+		display: block;
+		color: #444;
+		text-transform: uppercase;		
+	}
+	
 	.carousel {
 		height: auto;
 	}
