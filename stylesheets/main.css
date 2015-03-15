@@ -569,6 +569,14 @@ form {
 	margin-right: 10px;
 }
 
+.icon-mail-sm {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	fill: #222;
+	transform: rotate(180deg);
+}
+
 .icon-github {
 	display: inline-block;
 	width: 40px;
