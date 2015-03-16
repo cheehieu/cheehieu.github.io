@@ -426,7 +426,13 @@ form {
 	font-style: italic;
 }
 
-.carousel-inner-projects > .item > a, img {
+.carousel-inner-projects > .item > a {
+	max-width: 100%;
+	max-height: 350px;
+	text-align: center;
+}
+
+.carousel-inner-projects > .item > img {
 	max-width: 100%;
 	max-height: 350px;
 	text-align: center;
@@ -438,6 +444,10 @@ form {
 	font-family: Terminal, monospace;
 	font-size: 36px;
 	font-weight: 800px;
+}
+
+.about-img {
+	padding: 10px;
 }
 
 .centerDropdown {
