@@ -441,7 +441,9 @@ form {
 }
 
 .about-img {
-	padding: 10px;
+	margin-top: -10px;
+	margin-bottom: 30px;
+	padding: 0px;
 }
 
 .centerDropdown {
@@ -535,7 +537,10 @@ form {
 	font-size: 24px;
 	font-weight: 400px;
 	color: #888;
-	text-decoration: none
+	text-decoration: none;
+	margin: 0px;
+	padding: 0px;
+	text-shadow: none;
 }
 
 .blog_title p {
@@ -643,6 +648,21 @@ form {
 
 
 /***** MEDIA QUERIES *****/
+/* Force medium grid on screens >=1200px (large grid) */
+@media (min-width: 1200px) {
+	.col-lg-6 {
+		width: 56%;
+	}
+	.col-lg-offset-3 {
+		margin-left: 22%;
+	}
+	
+	.project_listing {
+		padding-left: 75px;
+		padding-right: 75px;
+	}
+}
+
 @media (min-width: 768px) {
 	.navbar .navbar-nav {
 		display: inline-block;
