@@ -42,6 +42,7 @@ baseurl: ""
 #
 markdown: redcarpet
 highlighter: pygments
+permalink: /:year/:month/:day/:title/
 
 # Use the following plug-ins
 gems:

@@ -5,7 +5,6 @@ subtitle: "How I set up a simple email host"
 blog_image: /images/sky/3_way.png
 tags:
 categories: ['web', 'email', 'tutorial']
-permalink: /:year/:month/:day/:title.html
 ---
 
 On the sixteenth of May in the jungle of Nool in the heat of the day in the cool of the pool. He was splashing enjoying the jungle's great joys. And Horton, the elephant heard a small noise.
