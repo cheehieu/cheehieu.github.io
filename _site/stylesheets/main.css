@@ -523,6 +523,12 @@ form {
 	margin-top: 20px;
 }
 
+.blog_image img {
+	height: 200px;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
 .blog_title {
 	text-align: center;
 }
