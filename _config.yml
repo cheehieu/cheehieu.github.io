@@ -14,6 +14,7 @@ author:
   email: hieu@niftyhedgehog.com
   github: cheehieu
   linkedin: hieuminh
+  medium: cheehieu
   facebook: 
   twitter:  
   instagram: 
@@ -42,7 +43,7 @@ baseurl: ""
 #
 markdown: redcarpet
 highlighter: pygments
-permalink: /:year/:month/:day/:title/
+permalink: /:year/:month/:day/:title
 
 # Use the following plug-ins
 gems:
