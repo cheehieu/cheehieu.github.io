@@ -2,7 +2,7 @@
 layout: post
 title: "Two Months"
 subtitle: "Just how much can one accomplish in two months time?"
-blog_image: /images/ocean/splash_dive.jpg
+main_image: images/ocean/splash_dive.jpg
 tags:
 categories: ['personal', 'goals']
 ---

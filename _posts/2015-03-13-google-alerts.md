@@ -2,7 +2,7 @@
 layout: post
 title: Google Alerts for "Hieu Nguyen"
 subtitle: "Keeping track of the others."
-blog_image: /images/ocean/splash_dive.jpg
+main_image: images/ocean/splash_dive.jpg
 tags:
 categories: ['personal', 'fun']
 ---

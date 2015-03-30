@@ -2,7 +2,7 @@
 layout: post
 title: "Creating a Custom Email Address"
 subtitle: "How I set up a simple email host"
-blog_image: /images/sky/3_way.png
+main_image: images/sky/3_way.png
 tags:
 categories: ['web', 'email', 'tutorial']
 ---
