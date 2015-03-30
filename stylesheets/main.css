@@ -560,6 +560,22 @@ form {
 	font-size: 16px;
 }
 
+.blog_post h3 {
+	font-size: 26px;
+	font-weight: 400px;
+	color: #888;
+	text-decoration: none;
+	margin: 0px;
+	padding: 0px;
+	text-shadow: none;
+}
+
+.blog_post img {
+	text-align: center;
+}
+
+
+
 #disqus_thread {
 	margin-top: 50px;
 }
