@@ -737,7 +737,7 @@ form {
 		height: auto;
 	}
 	
-	.carousel-caption a, h2 {
+	.carousel-caption a {
 		text-align: center;
 		margin-bottom: 10px;
 		font-size: 16px;
