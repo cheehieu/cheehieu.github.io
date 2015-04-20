@@ -33,26 +33,24 @@ There will also be a [Blog](http://niftyhedgehog.com/blog). Admittedly, I am not
 ## Infrastructure
 Several components were utilized to create this static website. 
 
-### Github Pages
-Without GitHub Pages, this website would not exist. All content his hosted through GitHub's servers (which could be problematic in the future). The main site is hosted in the master branch of [cheehieu.github.io](https://github.com/cheehieu/cheehieu.github.io), and each project page is hosted in its own repository through the gh-pages branch.
+### GitHub Pages
+Without [GitHub Pages](https://pages.github.com/), this website would not exist. All content his hosted through GitHub's servers (which could be problematic in the future). The main site is hosted in the master branch of [cheehieu.github.io](https://github.com/cheehieu/cheehieu.github.io), and each project page is hosted in its own repository through the gh-pages branch.
 
 And because it's through GitHub, version control is built-in to make development super easy. Also, the user interface is spectacular.
 
 ### Bootstrap
-The Bootstrap framework simplified the layout and formatting of HTML elements. The grid system is heavily utilizes, as well as the image carousels and collapsible menus. Bootstrap keeps everything nice and neat, on screens of all sizes.
+The [Bootstrap](http://getbootstrap.com/) framework simplified the layout and formatting of HTML elements. The grid system is heavily utilizes, as well as the image carousels and collapsible menus. Bootstrap keeps everything nice and neat, on screens of all sizes.
 
 ### Jekyll
-
-Jekyll’s strength is its simplicity and minimalism, giving you just what you need to create a content-focused website that doesn’t need much dynamic user interaction — and no more. This makes it perfect for your blog and portfolio and also worth considering for a simple client website.
-* Jekyll _include and _layout templates
+[Jekyll](http://jekyllrb.com/) is deeply integrated with GitHub Pages. It is a blog-aware static site generator that uses templates for rendering. It's a great tool for a static blog and portfolio, where dynamic user interaction is minimal. I've created templates for the blog posts and project pages, which greatly simplify content creation.
 
 ### Disqus
-Disqus is a free blog comment hosting service, allowing community and discussion among online communities. Anyone is welcome to leave a question or comment my blog and project pages.
+[Disqus](https://disqus.com/) is a free blog comment hosting service, allowing community and discussion among online communities. Anyone is welcome to leave a question or comment my blog and project pages.
 
 I'm still figuring this one out. I don't get many visitors to the website yet, so I have been the only one experimenting with leaving comments...
 
 ### Sketchfab
-Some of my projects involve 3D models, but can be difficult to visualize in a 2D image. Sketchfab utilizes WebGL technology that allows 3D models to be displayed on any mobile or desktop webpage. With their service, I'm able to publish, share, and embed interactive 3D files in my project pages. My designs are usually much less than 50MB, so the free Basic tier works for me. 
+Some of my projects involve 3D models, but can be difficult to visualize in a 2D image. [Sketchfab](https://sketchfab.com/) utilizes WebGL technology that allows 3D models to be displayed on any mobile or desktop webpage. With their service, I'm able to publish, share, and embed interactive 3D files in my project pages. My designs are usually much less than 50MB, so the free Basic tier works for me. 
 
 ### ChangeTip
-ChangeTip is the "love button for the Internet", allowing content monetization with Bitcoin. I've since removed my ChangeTip tip button because I am not looking to profit from this website. But I still think it's a cool idea and will help Bitcoin and other decentralized digital currencies to gain widespread acceptance.
+[ChangeTip](https://www.changetip.com/) is the "love button for the Internet", allowing content monetization with Bitcoin. I've since removed my ChangeTip tip button because I am not looking to profit from this website. But I still think it's a cool idea and will help Bitcoin and other decentralized digital currencies to gain widespread acceptance.
