@@ -2,25 +2,29 @@
 layout: post
 title: "Creating a Custom Email Address"
 subtitle: "How I set up a simple email host"
-main_image: images/sky/3_way.png
+main_image: images/blog/email.png
 tags:
 categories: ['web', 'email', 'tutorial']
 ---
 
-On the sixteenth of May in the jungle of Nool in the heat of the day in the cool of the pool. He was splashing enjoying the jungle's great joys. And Horton, the elephant heard a small noise.
+I thought it'd be cool to have my own custom email address, but I didn't want to pay an exorbitant amount of money for it. Google used to offer free custom domain email accounts through their Google Apps for Business, but they have since discontinued the free service. So I searched the web for an alternate solution and discovered Zoho, a suite of web apps for growing businesses.
 
-He didn't come in a plane, he didn't come in a jeep, he didn't come in the pouch of a high-jumping vo veep. He road on the back of a black sasatoo - which is the blackiest creature you ever could view. He road to Jerusalem - home of the grumpity Jews - where false prophets were worshipped, some even in two's. There was Murray von Muir and Genghis Vo Vooze - the one you could worship by taking a snooze.
+## Zoho Mail
+Zoho Mail offers a "[Free & Ad-Free](https://www.zoho.com/mail/zohomail-pricing.html)" tier of their enterprise class email hosting bundle. This is valid for a single domain and up to 10 users, with 5GB mailbox storage and 5GB docs storage per user. Being just one person, this option was perfect. Zoho Apps even supports seamless integration with Google Apps.
 
-![cone]({{ site.url }}/images/sky/cone.png "cone.png")
+To get started, I just needed to create an account on Zoho and follow the step-by-step instructions to register my custom domain. The most involved part of this process was verifying my custom domain, which I had purchased through Namecheap. To do this, I used the CNAME method to modify the mail settings in my Namecheap domain's host records to match the MX records of Zoho. I also added a TXT record with the Zoho verification token.
 
-## One Fish, Two Fish
-One fish, Two fish, Red fish, Blue fish, Black fish, Blue fish, Old fish, New fish. This one has a littlecar. This one has a little star. Say! What a lot of fish there are.
+Zoho and Namecheap are both incredibly easy to use, and I recommend each 100%. When I first started out, I found this [tutorial](http://www.techwalls.com/set-free-email-custom-domain-zoho-mail/) to be especially helpful.
 
-Yes. Some are red, and some are blue. Some are old and some are new. Some are sad, and some are glad, And some are very, very bad. Why are they sad and glad and bad? I do not know, go ask your dad. Some are thin, and some are fat. The fat one has a yellow hat. From there to here, From here to there, Funny things are everywhere. Here are some who like to run. They run for fun in the hot, hot sun. Oh me! Oh my! Oh me! oh my! What a lot of funny things go by.
+## Integration with Gmail
+Since I regularly check Gmail and have my Google accounts synced with my Android smartphone, I wanted to integrate Zoho with my Gmail account. This way, I could send/receive my Zoho email content directly through Gmail using POP3 and a secured connection to Zoho's SMTP ports.
 
-Some have two feet and some have four. Some have six feet and some have more. Where do they come from? I can't say. But I bet they have come a long, long way. we see them come, we see them go. Some are fast. Some are slow. Some are high. Some are low. Not one of them is like another. Don't ask us why, go ask your mother.
+To set this up, I needed to:
 
-## Using Jekyll
-Admittedly, I am not a great speaker or one who can quickly translate thoughts into clear, concise verbioge. Writing allows me to visualize complete sentences and construct them in ways to convey my perspective. I'm a slow writer, but that extra time allows a more graceful poet.
+* Log in to my Gmail account, and go to Accounts and Import settings
+* Add a POP3 mail account
+* Enter Zoho Mail account details (username, password, POP server, port, etc.)
+* Configure the custom alias to "send mail as"
 
-Jekyll’s strength is its simplicity and minimalism, giving you just what you need to create a content-focused website that doesn’t need much dynamic user interaction — and no more. This makes it perfect for your blog and portfolio and also worth considering for a simple client website.
+## Misc.
+The featured blog image at the top of the page is from [xkcd](http://xkcd.com/1467/).
