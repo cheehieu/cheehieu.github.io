@@ -15,8 +15,7 @@ title: Nifty Blog.
 				<p>This blog will feature random ramblings about life and philosophy, with a smidge of science and technology. Some posts will be informative drivel, while others will be outbursts of creative writing. I'm not a great writer, but my goal is to create at least one post per month. I think that's doable.</p>
 				<ul>
 					{% for post in site.posts %}
-						<li><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a> 
-						({{ post.date | date: "%B %e, %Y"}})</li>
+						<li>{{ post.date | date: "%B %e, %Y"}} >> <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a> </li>
 					{% endfor %}
 				</ul>
 				<h4>I'm also on <a href="https://medium.com/@{{ site.author.medium }}">Medium</a>.</h4>	
