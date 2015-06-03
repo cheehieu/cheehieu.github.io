@@ -82,7 +82,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3 blog_image blog_title">
-				<img src="http://niftyhedgehog.com/images/sky/3_way.png">
+				<img src="http://niftyhedgehog.com/images/blog/email.png">
 			</div>
 			<div class="col-lg-8 col-lg-offset-2 blog_title">
 				<h1>Creating a Custom Email Address</h1>
@@ -90,25 +90,32 @@
 				<p>by Hieu Minh Nguyen on February  8, 2015  |  <a href="http://niftyhedgehog.com/2015/02/08/custom-email-address/#disqus_thread">Comment Count</a></p>
 			</div>
 			<div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3 blog_post">
-				<p>On the sixteenth of May in the jungle of Nool in the heat of the day in the cool of the pool. He was splashing enjoying the jungle&#39;s great joys. And Horton, the elephant heard a small noise.</p>
+				<p>I thought it&#39;d be cool to have my own custom email address, but I didn&#39;t want to pay an exorbitant amount of money for it. Google used to offer free custom domain email accounts through their Google Apps for Business, but they have since discontinued the free service. So I searched the web for an alternate solution and discovered Zoho, a suite of web apps for growing businesses.</p>
 
-<p>He didn&#39;t come in a plane, he didn&#39;t come in a jeep, he didn&#39;t come in the pouch of a high-jumping vo veep. He road on the back of a black sasatoo - which is the blackiest creature you ever could view. He road to Jerusalem - home of the grumpity Jews - where false prophets were worshipped, some even in two&#39;s. There was Murray von Muir and Genghis Vo Vooze - the one you could worship by taking a snooze.</p>
+<h2>Zoho Mail</h2>
 
-<p><img src="http://niftyhedgehog.com/images/sky/cone.png" alt="cone" title="cone.png"></p>
+<p>Zoho Mail offers a &quot;<a href="https://www.zoho.com/mail/zohomail-pricing.html">Free &amp; Ad-Free</a>&quot; tier of their enterprise class email hosting bundle. This is valid for a single domain and up to 10 users, with 5GB mailbox storage and 5GB docs storage per user. Being just one person, this option was perfect. Zoho Apps even supports seamless integration with Google Apps.</p>
 
-<h2>One Fish, Two Fish</h2>
+<p>To get started, I just needed to create an account on Zoho and follow the step-by-step instructions to register my custom domain. The most involved part of this process was verifying my custom domain, which I had purchased through Namecheap. To do this, I used the CNAME method to modify the mail settings in my Namecheap domain&#39;s host records to match the MX records of Zoho. I also added a TXT record with the Zoho verification token.</p>
 
-<p>One fish, Two fish, Red fish, Blue fish, Black fish, Blue fish, Old fish, New fish. This one has a littlecar. This one has a little star. Say! What a lot of fish there are.</p>
+<p>Zoho and Namecheap are both incredibly easy to use, and I recommend each 100%. When I first started out, I found this <a href="http://www.techwalls.com/set-free-email-custom-domain-zoho-mail/">tutorial</a> to be especially helpful.</p>
 
-<p>Yes. Some are red, and some are blue. Some are old and some are new. Some are sad, and some are glad, And some are very, very bad. Why are they sad and glad and bad? I do not know, go ask your dad. Some are thin, and some are fat. The fat one has a yellow hat. From there to here, From here to there, Funny things are everywhere. Here are some who like to run. They run for fun in the hot, hot sun. Oh me! Oh my! Oh me! oh my! What a lot of funny things go by.</p>
+<h2>Integration with Gmail</h2>
 
-<p>Some have two feet and some have four. Some have six feet and some have more. Where do they come from? I can&#39;t say. But I bet they have come a long, long way. we see them come, we see them go. Some are fast. Some are slow. Some are high. Some are low. Not one of them is like another. Don&#39;t ask us why, go ask your mother.</p>
+<p>Since I regularly check Gmail and have my Google accounts synced with my Android smartphone, I wanted to integrate Zoho with my Gmail account. This way, I could send/receive my Zoho email content directly through Gmail using POP3 and a secured connection to Zoho&#39;s SMTP ports.</p>
 
-<h2>Using Jekyll</h2>
+<p>To set this up, I needed to:</p>
 
-<p>Admittedly, I am not a great speaker or one who can quickly translate thoughts into clear, concise verbioge. Writing allows me to visualize complete sentences and construct them in ways to convey my perspective. I&#39;m a slow writer, but that extra time allows a more graceful poet.</p>
+<ul>
+<li>Log in to my Gmail account, and go to Accounts and Import settings</li>
+<li>Add a POP3 mail account</li>
+<li>Enter Zoho Mail account details (username, password, POP server, port, etc.)</li>
+<li>Configure the custom alias to &quot;send mail as&quot;</li>
+</ul>
 
-<p>Jekyll’s strength is its simplicity and minimalism, giving you just what you need to create a content-focused website that doesn’t need much dynamic user interaction — and no more. This makes it perfect for your blog and portfolio and also worth considering for a simple client website.</p>
+<h2>Misc.</h2>
+
+<p>The featured blog image at the top of the page is from <a href="http://xkcd.com/1467/">xkcd</a>.</p>
 
 			</div>
 			<div class="col-lg-8 col-lg-offset-2">
