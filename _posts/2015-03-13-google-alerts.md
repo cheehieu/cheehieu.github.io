@@ -7,13 +7,17 @@ tags:
 categories: ['personal', 'fun']
 ---
 
-Will the real Hieu Nguyen please stand up? I have a very common name, akin to a "James Smith" or a "Mary Johnson" found in the United States. This makes it rather difficult to stand out in the world. My name doesn't have a particularly unique ring to it, one that's allowed Oprah, Beyonce, Adolf, and the like to attain worldwide notoriety.
+Will the real Hieu Nguyen please stand up? I have a very common name, akin to a "James Smith" or a "Mary Johnson" found in the United States. This makes it rather difficult to stand out in the world. Unfortunately, my name doesn't have a particularly unique ring to it--one that's allowed Oprah, Beyonce, Adolf, and the like to attain worldwide notoriety.
 
 However, it's nice sometimes to have a level of anonymity; I am not easily found in a web search. Below is a compilation of Google Alerts for "Hieu Nguyen" that I've collected over the years. It's my (weird) way of keeping track of my moniker brothers and sisters. Any and all noteworthy accomplishments are recorded, no matter how strange/illegal.
 
 There can only be one.
 
 ## The Hieu Collection
+* [Missing Hieu](https://twitter.com/missingpeople/status/603939258534109185)
+* [Optical Hieu](https://www.google.com/url?rct=j&sa=t&url=http://imagebank.osa.org/getExport.xqy%3Fimg%3DLmFvLTU0LTEtQTktZzAwNQ%3D%3D%26xtype%3Dpdf%26article%3Dao-54-1-A9-g005&ct=ga&cd=CAEYACoTODE5NDAzMTAxMjgxODU4ODc3MzIaOGI5Y2MyOTYwOGRiYTU5Yzpjb206ZW46VVM&usg=AFQjCNGyb16KMgeq34R7oKRBxEpn7MyP6Q)
+* [Xavier School (of gifted youngsters) Hieu](http://www.nola.com/education/index.ssf/2015/05/565_xavier_students_will_gradu.html)
+* [Banker Hieu](http://www.latimes.com/world/asia/la-fg-vietnamese-americans-return-20150430-story.html#page=1)
 * [Community College Hieu](http://6abc.com/education/community-college-of-philadelphia-makes-tuition-free-for-motivated-students/638467/)
 * [Western Vegetables Hieu](http://www.yorkshireeveningpost.co.uk/news/latest-news/top-stories/100k-cannabis-pair-thought-they-were-just-growing-western-vegetables-1-7145224)
 * [Father Hieu](http://www.catholicglobe.org/?p=1785)
