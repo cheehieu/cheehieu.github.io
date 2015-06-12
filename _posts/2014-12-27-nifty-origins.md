@@ -39,7 +39,7 @@ Without [GitHub Pages](https://pages.github.com/), this website would not exist.
 And because it's through GitHub, version control is built-in to make development super easy. Also, the user interface is spectacular.
 
 ### Bootstrap
-The [Bootstrap](http://getbootstrap.com/) framework simplified the layout and formatting of HTML elements. The grid system is heavily utilizes, as well as the image carousels and collapsible menus. Bootstrap keeps everything nice and neat, on screens of all sizes.
+The [Bootstrap](http://getbootstrap.com/) framework simplified the layout and formatting of HTML elements. The grid system is heavily utilized, along with the image carousels and collapsible menus. Bootstrap keeps everything nice and neat, on screens of all sizes.
 
 ### Jekyll
 [Jekyll](http://jekyllrb.com/) is deeply integrated with GitHub Pages. It is a blog-aware static site generator that uses templates for rendering. It's a great tool for a static blog and portfolio, where dynamic user interaction is minimal. I've created templates for the blog posts and project pages, which greatly simplify content creation.
