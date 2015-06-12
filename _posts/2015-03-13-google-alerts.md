@@ -15,7 +15,7 @@ There can only be one.
 
 ## The Hieu Collection
 * [Missing Hieu](https://twitter.com/missingpeople/status/603939258534109185)
-* [Optical Hieu](https://www.google.com/url?rct=j&sa=t&url=http://imagebank.osa.org/getExport.xqy%3Fimg%3DLmFvLTU0LTEtQTktZzAwNQ%3D%3D%26xtype%3Dpdf%26article%3Dao-54-1-A9-g005&ct=ga&cd=CAEYACoTODE5NDAzMTAxMjgxODU4ODc3MzIaOGI5Y2MyOTYwOGRiYTU5Yzpjb206ZW46VVM&usg=AFQjCNGyb16KMgeq34R7oKRBxEpn7MyP6Q)
+* [Optical Hieu](https://www.osapublishing.org/ao/abstract.cfm?URI=ao-54-1-a9)
 * [Xavier School (of gifted youngsters) Hieu](http://www.nola.com/education/index.ssf/2015/05/565_xavier_students_will_gradu.html)
 * [Banker Hieu](http://www.latimes.com/world/asia/la-fg-vietnamese-americans-return-20150430-story.html#page=1)
 * [Community College Hieu](http://6abc.com/education/community-college-of-philadelphia-makes-tuition-free-for-motivated-students/638467/)
