@@ -14,12 +14,12 @@ It seems like there is a vast collection of arbitrary holidays that occur every 
 
 The widget below lists a few of the globablly-celebrated arbitrary holidays for today's date. Go ahead and indulge. HAPPY _______ ____ ________ DAY!!
 
-
-<script type="text/javascript">
-	var width = 400; // Min 280
-	var height = 400; // Min 100
-	// Default size: 300x250
+<script src="http://www.checkiday.com/widget/min.js" type="text/javascript">
+	var width = 100%; 
+	var height = 100%;
 </script>
-<script src="http://www.checkiday.com/widget/min.js" type="text/javascript"></script>
-<div id="Checkiday"><div id="Checkiday_Footer"></div></div>
+<br>
+<br>
+<div id="Checkiday"><div id="Checkiday_Footer">Have a great day!</div></div>
+<br>
 
