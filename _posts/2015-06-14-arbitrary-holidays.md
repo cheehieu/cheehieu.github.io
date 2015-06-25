@@ -15,8 +15,8 @@ It seems like there is a vast collection of arbitrary holidays that occur every 
 The widget below lists a few of the globablly-celebrated arbitrary holidays for today's date. Go ahead and indulge. HAPPY ______ ____ _______ DAY!!
 
 <script type="text/javascript">
-	var width = 400; // Min 280
-	var height = 400; // Min 100
+	var width = 300; // Min 280
+	var height = 300; // Min 100
 	// Default size: 300x250
 </script>
 
