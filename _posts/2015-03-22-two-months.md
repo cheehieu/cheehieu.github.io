@@ -7,4 +7,4 @@ tags:
 categories: ['personal', 'goals']
 ---
 
-Time seems to be moving faster nowadays. I have just two months remaining until ___. I am writing this as an attempt to remind myself to put more effort into my work. What's going to happen? We'll find out soon... Panic mode, engaged.
+Time seems to be moving faster nowadays. I have just two months remaining until. I am writing this as an attempt to remind myself to put more effort into my work. What's going to happen? We'll find out soon... Panic mode, engaged.
