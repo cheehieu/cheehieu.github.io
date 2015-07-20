@@ -6,20 +6,22 @@ title: Nifty Blog.
 <div class="container">
 		<div class="row">
 			<div class="col-lg-8 col-lg-offset-2 blog_title">
-				<h1>#Test post, please ignore.</h1>
-				<h3>This Jekyll blogging infrastructure is a work in progress...</h3>
+				<h1>***</h1>
+				<!--h1>#Test post, please ignore.</h1-->
+				<!--h3>This Jekyll blogging infrastructure is a work in progress...</h3-->
 			</div>
 			<div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3 blog_post">
-				<!--blog landing page with several blog posts-->
 				<!--p>I'm not a very good speaker. I don't thrive in high-pressure situations where I need to quickly articulate thoughts into cohesive diction. The English language is a work of art, and unfortunately, I am not a speed painter. I prefer to choose my words carefully, so that my ideas are communicated more accurately and effectively.  I have a voice, and I'd like to share it with others. </p-->
-				<p>This blog will feature random ramblings about life and philosophy, with a smidge of science and technology. Some posts will be informative drivel, while others will be outbursts of creative writing. I'm not a great writer, but my goal is to create at least one post per month. I think that's doable.</p>
+				<!-->Format blog posts with title, subtitle, image thumbnail, Posted by Hieu on [date] in italics and grayed, tags, categories with clickable boxes<-->
+				<p>This Jekyll-based blog features random ramblings about life and philosophy, with a smidge of science and technology. Some posts will be informative drivel, while others will be outbursts of creative writing. I'm not a great writer, but my goal is to create at least one interesting post per month. I think that's doable.</p>
 				<ul>
 					{% for post in site.posts %}
-						<li>{{ post.date | date: "%B %e, %Y"}} >> "<a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>"</li>
+						<li>Posted by Hieu on {{ post.date | date: "%B %e, %Y"}} >> "<a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>"</li>
 					{% endfor %}
 				</ul>
+				<br>
 				<h4>I'm also on <a href="https://medium.com/@{{ site.author.medium }}">Medium</a>.</h4>	
-				<h4>Blog Post Backlog</h4>
+				<!--h4>Blog Post Backlog</h4>
 				<p>The following list of categories and topics deserve more thought/deconstruction:</p>
 				<ul>
 					<li><a href="#">Sky, Land, Ocean</a></li>
@@ -27,12 +29,12 @@ title: Nifty Blog.
 					<li><a href="#">Aspirations, career goals</a></li>
 					<li><a href="#">Where I come from, home, heritage</a></li>
 					<li><a href="#">Food, experimental cooking, dining</a></li>
-					<!--BCD, KBBQ, El Taco, Q39-->
+					<li>BCD, KBBQ, El Taco, Q39</li>
 					<li><a href="#">Film, animation, special effects</a></li>
 					<li><a href="#">Music, composition, songwriting</a></li>
 					<li><a href="#">Travel, bucket list</a></li>
 					<li><a href="#">Interesting facts, quotes</a></li>
-				</ul>		
+				</ul-->
 			</div>
 			<div class="col-lg-8 col-lg-offset-2">
 				{% include disqus.html %}
