@@ -88,7 +88,7 @@ The list below highlights a few of the globally-celebrated arbitrary holidays fo
 	var sourceUrl = "http://www.checkiday.com/api.php?d="+today;
 	console.log(sourceUrl);
 	var todaysDate = '<p>' + "Today's date is " + today + ", also known as:" + '</p>';
-	$('.container').append(todaysDate);
+	$('.blog_post').append(todaysDate);
 
 	// Use jQuery to parse and format holiday names
 	$.ajax({
@@ -104,11 +104,11 @@ The list below highlights a few of the globally-celebrated arbitrary holidays fo
 		console.log(data);
 		var HTML = $.parseHTML(data.results[0])[0].data;
 		HTML = HTML.substr(1,HTML.length-2).split(',');
-		// Create some elements and append to container
+		// Create some elements and append to blog post
 		for (var i=0; i< HTML.length; i++) {
 			var actualContent = HTML[i].substr(1,HTML[i].length-2);
 			var newElement = '<p>' + actualContent + '</p>';
-			$('.container').append(newElement);
+			$('.blog_post').append(newElement);
 		}
 		console.log(HTML);
 	});
