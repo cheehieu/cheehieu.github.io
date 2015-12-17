@@ -7,14 +7,16 @@ tags:
 categories: ['random']
 ---
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
+
 Today is June 14, 2015&mdash;otherwise known as Flag Day in the United States. Apparently, it is also National Bourbon Day and National Strawberry Shortcake Day. And who could forget Pop Goes The Weasel Day?
 
 It seems like there is a vast collection of arbitrary holidays that occur every single day of the year. Whether its eating donuts on National Donut Day or fawning over Mr. Clean for Bald is Beautiful Day, society never fails to celebrate the mundane and recognize life's simple pleasures. By collectively spreading awareness of random objects or frivolous activities, we maintain and perpetuate the essence of human culture. What more can we observe?
 
 
-The widget below lists a few of the globablly-celebrated arbitrary holidays for today's date. Go ahead and indulge. HAPPY ______ _______ DAY!!
+The list below highlights a few of the globally-celebrated arbitrary holidays for today's date. Go ahead and indulge. HAPPY ______ _______ DAY!!
 
-<br>
+<br><br>
 
 <script>
 	/**
@@ -85,6 +87,8 @@ The widget below lists a few of the globablly-celebrated arbitrary holidays for 
 	today = mm+'/'+dd+'/'+yyyy;
 	var sourceUrl = "http://www.checkiday.com/api.php?d="+today;
 	console.log(sourceUrl);
+	var todaysDate = '<p>' + "Today's date is " + today + ", also known as:" + '</p>';
+	$('.container').append(todaysDate);
 
 	// Use jQuery to parse and format holiday names
 	$.ajax({
