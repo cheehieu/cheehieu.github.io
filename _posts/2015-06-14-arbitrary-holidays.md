@@ -86,7 +86,6 @@ The list below highlights a few of the globally-celebrated arbitrary holidays fo
 	var yyyy = today.getFullYear();
 	today = mm+'/'+dd+'/'+yyyy;
 	var sourceUrl = "http://www.checkiday.com/api.php?d="+today;
-	console.log(sourceUrl);
 	var todaysDate = '<h2>' + "Today is " + today + ", also known as:" + '</h2>';
 	$('.blog_post').append(todaysDate);
 
@@ -101,7 +100,6 @@ The list below highlights a few of the globally-celebrated arbitrary holidays fo
 		},
 		url: sourceUrl
 	}).done(function (data) {
-		console.log(data);
 		var HTML = $.parseHTML(data.results[0])[0].data;
 		HTML = HTML.substr(1,HTML.length-2).split(',');
 		// Create some elements and append to blog post
@@ -110,6 +108,5 @@ The list below highlights a few of the globally-celebrated arbitrary holidays fo
 			var newElement = '<p>' + '* ' + actualContent + '</p>';
 			$('.blog_post').append(newElement);
 		}
-		console.log(HTML);
 	});
 </script>
