@@ -3,7 +3,21 @@
 
 <body>
 
-<iframe src="https://docs.google.com/forms/d/1nkIDTMrOhCZynstnHyAQphohgYoDovV-xYp44fPREqk/viewform?embedded=true" width="100%" height="100%" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+<iframe src="https://docs.google.com/forms/d/1nkIDTMrOhCZynstnHyAQphohgYoDovV-xYp44fPREqk/viewform?embedded=true" width="100%" height="4000" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+
+<button onclick="generateCode()">Generate MTurk Code</button>
+
+<script>
+function randomString(length, chars) {
+    var result = '';
+    for (var i = 0; i < length; i++) result += Math.random().toString(36).slice(2);
+    return result;
+}
+
+function generateCode() {
+	alert(randomString(8, '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'));
+}
+</script>
 
 </body>
 </html>
