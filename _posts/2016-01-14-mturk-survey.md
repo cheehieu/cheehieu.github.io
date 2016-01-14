@@ -1,6 +1,6 @@
 ---
 layout: post
-title:
+title: MTurk Survey Test
 subtitle:
 main_image:
 tags:
