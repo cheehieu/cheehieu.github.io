@@ -36,4 +36,5 @@ There can only be one.
 * [Warren Buffett Hieu] (http://www.iowastatedaily.com/news/politics_and_administration/campus/article_bfea17da-7cd2-11e5-8fd6-ef2fe283d1d0.html)
 * [National Geographic Hieu] (http://yourshot.nationalgeographic.com/profile/1174719/)
 * [Land Sciences Hieu] (http://www.power-eng.com/marketwired/2015/11/9/regenesis-r-hires-hieu-nguyen-as-technical-engineer-of-land-science-technologies-r-division.html)
+* [Stocks Hieu] (http://stocktwits.com/HieuTN)
 
