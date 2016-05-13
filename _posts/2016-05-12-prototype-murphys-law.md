@@ -1,11 +1,12 @@
 ---
 layout: post
 title: "Prototyping with Murphy's Law"
-subtitle: "Obstacle after obstacle."
-main_image: images/blog/flasks/tres_comas_flask.jpg
+subtitle: "Obstacle after obstacle... after obstacle."
+main_image: images/blog/eg_prototype/shopbot.jpg
 tags:
-categories: ['random', 'diy']
+categories: ['diy']
 ---
+
 
 
 * Issues with ShopBot
