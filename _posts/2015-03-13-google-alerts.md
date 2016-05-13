@@ -37,4 +37,7 @@ There can only be one.
 * [National Geographic Hieu] (http://yourshot.nationalgeographic.com/profile/1174719/)
 * [Land Sciences Hieu] (http://www.power-eng.com/marketwired/2015/11/9/regenesis-r-hires-hieu-nguyen-as-technical-engineer-of-land-science-technologies-r-division.html)
 * [Stocks Hieu] (http://stocktwits.com/HieuTN)
+* [Stocks Hieu 2] (http://stocktwits.com/mrwendel1)
+* [Carraba's President Hieu] (http://houston.culturemap.com/news/city-life/05-06-16-johnny-carrabba-spills-the-beans-on-everything-in-beautiful-new-cookbook/#slide=0)
+
 
