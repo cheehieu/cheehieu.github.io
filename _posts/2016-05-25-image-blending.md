@@ -71,9 +71,9 @@ def gaussPyramid(image, levels):
     output.append(reduce(output[i]))
   return output
 ```
-<img src="http://niftyhedgehog.com/images/blog/image_blending/gauss_pyr_black.jpg"  width="150">
-<img src="http://niftyhedgehog.com/images/blog/image_blending/gauss_pyr_mask.jpg"  width="150">
-<img src="http://niftyhedgehog.com/images/blog/image_blending/gauss_pyr_white.jpg"  width="150">
+<img src="http://niftyhedgehog.com/images/blog/image_blending/gauss_pyr_black.jpg"  width="200">
+<img src="http://niftyhedgehog.com/images/blog/image_blending/gauss_pyr_mask.jpg"  width="200">
+<img src="http://niftyhedgehog.com/images/blog/image_blending/gauss_pyr_white.jpg"  width="200">
 
 #### laplPyramid
 This function takes a Gaussian pyramid constructed by the previous function, and turns it into a Laplacian pyramid, which is essentially the difference of Gaussian pyramid levels. For each level, the immediate lower level is expanded. A check is done to ensure the expanded image dimensions are identical to the target image, otherwise cropping is performed (removing excessive rows/columns). The Laplacian level is then calculated by taking the difference. This continues until the top level, which is identical to the top level of the Gaussian pyramid because no further difference can be done.
@@ -99,8 +99,8 @@ def laplPyramid(gaussPyr):
   output.append(gaussPyr[len(gaussPyr)-1])
   return output
 ```
-<img src="http://niftyhedgehog.com/images/blog/image_blending/lapl_pyr_black.jpg" width="150">
-<img src="http://niftyhedgehog.com/images/blog/image_blending/lapl_pyr_white.jpg" width="150">
+<img src="http://niftyhedgehog.com/images/blog/image_blending/lapl_pyr_black.jpg" width="200">
+<img src="http://niftyhedgehog.com/images/blog/image_blending/lapl_pyr_white.jpg" width="200">
 
 ### Part 2: Writing the blend and collapse functions
 
@@ -137,7 +137,7 @@ def collapse(pyramid):
     output = expanded + pyramid[i - 1]
   return output
 ```
-<img src="http://niftyhedgehog.com/images/blog/image_blending/outpyr.jpg" width="150">
+<img src="http://niftyhedgehog.com/images/blog/image_blending/outpyr.jpg" width="200">
 
 
 ## Output
