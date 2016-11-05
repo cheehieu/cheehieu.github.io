@@ -14,9 +14,9 @@ Image blending is the process of combining multiple images together. It truly is
 ## Input Images
 I settled on creating a sort of hero/villain blended headshot. The black image I chose was of Harley Quinn from the upcoming movie, Suicide Squad. The white image I chose was of the actress who plays her, Margot Robbie. I used Gimp to adjust the orientation and make both images have the same dimensions. I also used Gimp to create a black and white image mask, drawn freehand using the eraser tool. This mask is unique because it isn’t just a half/half face. I was able to take interesting features from both images and perform a smooth blending.
 
-<img src="http://niftyhedgehog.com/images/blog/image_blending/black.jpg" width="400">
-<img src="http://niftyhedgehog.com/images/blog/image_blending/white.jpg" width="400">
-<img src="http://niftyhedgehog.com/images/blog/image_blending/mask.jpg" width="400">
+<img src="http://niftyhedgehog.com/images/blog/image_blending/black.jpg">
+<img src="http://niftyhedgehog.com/images/blog/image_blending/white.jpg">
+<img src="http://niftyhedgehog.com/images/blog/image_blending/mask.jpg">
 
 
 ## Computational Photography
@@ -71,9 +71,9 @@ def gaussPyramid(image, levels):
     output.append(reduce(output[i]))
   return output
 ```
-<img src="http://niftyhedgehog.com/images/blog/image_blending/gauss_pyr_black.jpg">
-<img src="http://niftyhedgehog.com/images/blog/image_blending/gauss_pyr_white.jpg">
-<img src="http://niftyhedgehog.com/images/blog/image_blending/gauss_pyr_mask.jpg">
+<img src="http://niftyhedgehog.com/images/blog/image_blending/gauss_pyr_black.jpg"  width="250">
+<img src="http://niftyhedgehog.com/images/blog/image_blending/gauss_pyr_white.jpg"  width="250">
+<img src="http://niftyhedgehog.com/images/blog/image_blending/gauss_pyr_mask.jpg"  width="250">
 
 #### laplPyramid
 This function takes a Gaussian pyramid constructed by the previous function, and turns it into a Laplacian pyramid, which is essentially the difference of Gaussian pyramid levels. For each level, the immediate lower level is expanded. A check is done to ensure the expanded image dimensions are identical to the target image, otherwise cropping is performed (removing excessive rows/columns). The Laplacian level is then calculated by taking the difference. This continues until the top level, which is identical to the top level of the Gaussian pyramid because no further difference can be done.
@@ -99,8 +99,8 @@ def laplPyramid(gaussPyr):
   output.append(gaussPyr[len(gaussPyr)-1])
   return output
 ```
-<img src="http://niftyhedgehog.com/images/blog/image_blending/lapl_pyr_black.jpg">
-<img src="http://niftyhedgehog.com/images/blog/image_blending/lapl_pyr_white.jpg">
+<img src="http://niftyhedgehog.com/images/blog/image_blending/lapl_pyr_black.jpg" width="250">
+<img src="http://niftyhedgehog.com/images/blog/image_blending/lapl_pyr_white.jpg" width="250">
 
 ### Part 2: Writing the blend and collapse functions
 
@@ -137,10 +137,10 @@ def collapse(pyramid):
     output = expanded + pyramid[i - 1]
   return output
 ```
-<img src="http://niftyhedgehog.com/images/blog/image_blending/outpyr.jpg" width="400">
+<img src="http://niftyhedgehog.com/images/blog/image_blending/outpyr.jpg" width="250">
 
 
 ## Output
 Here is the final result! Almost as good as the movie!
 
-<img src="http://niftyhedgehog.com/images/blog/image_blending/outimg.jpg" width="400">
+<img src="http://niftyhedgehog.com/images/blog/image_blending/outimg.jpg">
