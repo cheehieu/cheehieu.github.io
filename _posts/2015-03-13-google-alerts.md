@@ -13,6 +13,10 @@ However, it's nice sometimes to have a level of anonymity; I am not easily found
 
 There can only be one.
 
+```
+// TODO: Turn this into an interactive map; a who-and-where's who of Hieu Nguyen's around the world.
+```
+
 ## The Hieu Collection
 * [Missing Hieu](https://twitter.com/missingpeople/status/603939258534109185)
 * [Optical Hieu](https://www.osapublishing.org/ao/abstract.cfm?URI=ao-54-1-a9)
@@ -41,4 +45,21 @@ There can only be one.
 * [Carraba's President Hieu](http://houston.culturemap.com/news/city-life/05-06-16-johnny-carrabba-spills-the-beans-on-everything-in-beautiful-new-cookbook/#slide=0)
 * [High School Graduate Hieu](http://www.theneworleansadvocate.com/community/crescentcity/15861246-171/thomas-jefferson-high-school-class-of-2016)
 * [Chess Player Hieu](http://www.sunstar.com.ph/cebu/sports/2016/05/31/cebus-velarde-scales-top-spot-476871)
+* [Ranch Dressing Astronaut Hieu](http://www.wtvm.com/story/31267590/middle-schoolers-get-to-talk-live-with-iss-astronaut)
+* [Graphic Design Hieu](https://dribbble.com/hieu)
+* [Unpaid Wages Hieu](http://www.dailytelegraph.com.au/newslocal/the-express/fair-work-investigates-bankstownvietnamese-outlet-matilda-news-amid-allegations-of-unpaid-wages-and-super/news-story/9f4f3fc80e0a2be4f93ad726c1ae4e09?nk=00aed4971f59ee92853bbf98b27b064b-1507832932)
+* [Crack Lab Hieu](http://calgaryherald.com/news/crime/three-men-arrested-after-calgary-crack-lab-dismantled)
+* [Cultural Exchange Hieu (Mason, MI, USA)](http://www.wilx.com/content/news/Local-Students-Learn-from-Foreign-Exchange-433059653.html)
+* [Photojournalist Hieu (Iowa City, IA, USA](http://daily-iowan.com/2017/07/11/a-new-cafe-bubbles-along/)
+* [Vietnam Smart Phone Hieu (Vietnam)](http://english.vietnamnet.vn/fms/science-it/182023/bphone-2-to-hit-shelves-at-giant-distribution-chain.html)
+* [ProductHunt Hieu (location unknown)](https://www.producthunt.com/@hieudaigia)
+* [Nichols College Hieu (Dudley, MA, USA)](https://www.milfordmirror.com/76475/jonathan-law-graduates-announce-their-chosen-colleges/)
+* [Openly Gay Social Worker Hieu (Los Angeles, CA, USA)](https://www.statnews.com/2017/09/05/transgender-health-care-trump/)
+* [Building Permit Hieu (Baton Rouge, LA, USA)](http://www.theadvocate.com/baton_rouge/news/communities/mid_city/article_87026366-8f34-11e7-8d59-cf2d6283b92b.html)
+* [Spoken Work Artist Hieu (St. Paul, MN, USA)](https://news.illinoisstate.edu/2017/09/neil-hilborn-speak-mental-health-october-11/)
+* [Staff Photographer Hieu (Syracuse, NY, USA)](http://dailyorange.com/2017/09/open-hand-theaters-larger-than-life-puppets-art-education-programs-find-new-home-in-mall/)
+* [Robotic Mining Hieu (Chicago, IL, USA)](https://iit.edu/news/iittoday/?p=67479)
+* [Pot House Hieu (Montreal, Canada)](https://sivertimes.com/the-masters-of-the-pot-culture/70917)
+* [Drug Arrest Hieu (New Orleans, LA, USA)](http://www.nola.com/crime/index.ssf/2017/10/44_pounds_of_marijuana_seized.html)
+* []()
 
