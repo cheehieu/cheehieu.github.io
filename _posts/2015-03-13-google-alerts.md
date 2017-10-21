@@ -61,5 +61,6 @@ There can only be one.
 * [Robotic Mining Hieu (Chicago, IL, USA)](https://iit.edu/news/iittoday/?p=67479)
 * [Pot House Hieu (Montreal, Canada)](https://sivertimes.com/the-masters-of-the-pot-culture/70917)
 * [Drug Arrest Hieu (New Orleans, LA, USA)](http://www.nola.com/crime/index.ssf/2017/10/44_pounds_of_marijuana_seized.html)
+* [Catholic Deacon Hieu (Perth, Australia)](http://www.therecord.com.au/news/local/ordination-to-the-diaconate-walking-in-the-footsteps-of-christ-to-serve-and-not-to-be-served/)
 * []()
 
