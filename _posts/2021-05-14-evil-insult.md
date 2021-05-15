@@ -7,9 +7,9 @@ tags:
 categories: ['random']
 ---
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 
-Behold! A random evil insult from the [Evil Insult Generator](https://evilinsult.com/api/).
+Behold! A random evil insult from the [Evil Insult Generator](https://evilinsult.com/api/)!
 <br>
 
 <script>
