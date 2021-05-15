@@ -9,6 +9,7 @@ categories: ['random']
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
 
+Behold:
 <br>
 
 <script>
@@ -72,10 +73,8 @@ categories: ['random']
 </script>
 
 <script>
-	// Get random evil insult from API
+	// Use jQuery to get random evil insult from API
 	var sourceUrl = "https://evilinsult.com/generate_insult.php";
-
-	// Use jQuery to parse and format holiday names
 	$.ajax({
 		type: "GET",
 		headers: {
@@ -86,7 +85,7 @@ categories: ['random']
 		},
 		url: sourceUrl
 	}).done(function (data) {
-    var insult = '<h2>' + '"' + data + '"' + '</h2>';
+    		var insult = '<h2>' + '"' + data + '"' + '</h2>';
 		$('.blog_post').append(insult);
 	});
 </script>
