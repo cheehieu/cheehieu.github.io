@@ -14,9 +14,8 @@ Behold! A random evil insult from the [Evil Insult Generator](https://evilinsult
 
 <script>
 	// Use jQuery to get random evil insult from API
-	// FIXME: Cross-Origin Resource Sharing error: MissingAllowOriginHeader
-	$.get( "https://evilinsult.com/generate_insult.php", function(data) {
-        	alert( "Data Loaded: " + data );
+	// Use CORS proxy to get around MissingAllowOriginHeader error
+	$.get("https://cors-anywhere.herokuapp.com/https://evilinsult.com/generate_insult.php", function(data) {
 		$('.blog_post').append('<h2>' + data + '</h2>');
-    	});
+	});
 </script>
