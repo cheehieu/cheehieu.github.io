@@ -2,7 +2,7 @@
 layout: post
 title: "Random Insult"
 subtitle: "❤️"
-main_image: images/blog/placeholder.jpg
+main_image: images/blog/insult.jpg
 tags:
 categories: ['random']
 ---
